@@ -1,0 +1,61 @@
+baseURL = "http://brendathng.com/"
+languageCode = "en-us"
+title = "Brenda Thng"
+theme = "minimal"
+[params]
+	accent = "purple"
+	showBorder = true
+	font = "Assistant"
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "python"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/posts/"
+    name = "Posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/projects/"
+    name = "Projects"
+    weight = 3
+
+[[menu.main]]
+    url = "/resume/"
+    name = "Resume"
+    weight = 3
+
+[[menu.icon]]
+    url = "mailto:brenda.thng@u.nus.edu.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/breadplop/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/retardedfactor/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/brenda-thng-b10265130/"
+    name = "linkedin"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.stackoverflow.com/username/"
+    name = "stack-overflow"
+    weight = 5  
+
+ [[menu.icon]]
+ 	url = "https://docs.google.com/document/d/1eyDSzV6hueRA6yl05hzjWYEhe6MBJQ8sHp_Mv_N9ETc/edit?usp=sharing"
+ 	name = "star"
+ 	weight = 6
