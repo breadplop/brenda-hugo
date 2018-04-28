@@ -2,6 +2,9 @@ baseURL = "http://brendathng.com/"
 languageCode = "en-us"
 title = "Brenda Thng"
 theme = "minimal"
+disqusShortname = "username" # delete this to disable disqus comments
+googleAnalytics = ""
+
 [params]
 	accent = "purple"
 	showBorder = true
@@ -59,3 +62,5 @@ theme = "minimal"
  	url = "https://docs.google.com/document/d/1eyDSzV6hueRA6yl05hzjWYEhe6MBJQ8sHp_Mv_N9ETc/edit?usp=sharing"
  	name = "star"
  	weight = 6
+
+staticDir = ["static", "static2"]

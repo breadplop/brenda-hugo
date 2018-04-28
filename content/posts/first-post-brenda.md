@@ -15,3 +15,26 @@ https://gohugo.io/getting-started/usage/
 
 when i deploy to firebase, i get an error:
 https://animal-guesser-bthng.firebaseapp.com/
+https://suspicious-wilson-142037.netlify.com/
+
+to create a new post:
+`hugo new content/posts/first-post-brenda.md`
+
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+ 
+```python
+s = "Python syntax highlighting"
+print s
+```
+ 
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
+https://highlightjs.org/static/demo/
+
+<a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code">link to markdown cheatsheet</a>
