@@ -85,4 +85,4 @@ http://rsangole.netlify.com/
 
 ### testing out shortcodes
 
-{{<togglesg toggleid="596837"> }}
+{{<togglesg toggleid="596837">}}

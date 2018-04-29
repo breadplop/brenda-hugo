@@ -6,10 +6,29 @@
     <description>Recent content in Posts on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://suspicious-wilson-142037.netlify.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Self-Updating Marketing Dashboard on Google Spreadsheets</title>
+      <link>https://suspicious-wilson-142037.netlify.com/posts/self-updating-marketing-dashboard-google-spreadsheets/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/posts/self-updating-marketing-dashboard-google-spreadsheets/</guid>
+      <description>How I created an automated marketing dashboard on Google Spreadsheets Background Perhaps I should first provide some background/context on this project that I worked on. For those that don&amp;rsquo;t know, I am interning at a commercial real estate tech startup in NYC for a year as part of a school programme that my university provided.
+So when I first entered my internship company, I noticed that sales/marketing data were all being tracked on Google Spreadsheets.</description>
+    </item>
+    
+    <item>
+      <title>Things to Write About</title>
+      <link>https://suspicious-wilson-142037.netlify.com/posts/things-to-write-about/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/posts/things-to-write-about/</guid>
+      <description> Personal NOC Reflections (goals achieved, things to improve on) Goals when I get back  Learning Can I be a data scientist? How I created a product analytics dashboard on flask (Tags: Flask, Python, Numpy, Pandas, Plotly)  gr </description>
+    </item>
     
     <item>
       <title>Introduction Post</title>
@@ -27,11 +46,12 @@ People around me kept telling me that I should start a blog or portfolio of some
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://suspicious-wilson-142037.netlify.com/posts/first-post-brenda/</guid>
-      <description>Hello Hugo world! No more excuses for having no blog or documentation now! help: https://github.com/calintat/minimal/blob/master/exampleSite/content/post/goisforlovers.md https://opensource.com/article/18/3/start-blog-30-minutes-hugo https://gohugo.io/getting-started/usage/
-when i deploy to firebase, i get an error: https://animal-guesser-bthng.firebaseapp.com/ https://suspicious-wilson-142037.netlify.com/
-to create a new post: hugo new content/posts/first-post-brenda.md
+      <description>Hello Hugo world! No more excuses for having no blog or documentation now!
+Help: Link to theme Start a Blog in 30 minutes with Hugo GoHugo.io Getting-started documentation
+Deployment Sites Firebase Netlify
 var s = &amp;quot;JavaScript syntax highlighting&amp;quot;; alert(s);  s = &amp;quot;Python syntax highlighting&amp;quot; print s  No language indicated, so no syntax highlighting. But let&#39;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.  https://highlightjs.org/static/demo/
-link to markdown cheatsheet</description>
+Link to Markdown Cheatsheet
+How to use hugo  to create a new post  hugo new posts/introduction-post.</description>
     </item>
     
   </channel>

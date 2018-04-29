@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Self-Updating Marketing Dashboard on Google Spreadsheets</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Assistant', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: purple;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://suspicious-wilson-142037.netlify.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.40.1" />
+        
+
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Self-Updating Marketing Dashboard on Google Spreadsheets</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                                <li><a href="/projects/">Projects</a></li>
+                            
+                                <li><a href="/resume/">Resume</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:brenda.thng@u.nus.edu.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/breadplop/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/retardedfactor/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/brenda-thng-b10265130/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.stackoverflow.com/username/"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://docs.google.com/document/d/1eyDSzV6hueRA6yl05hzjWYEhe6MBJQ8sHp_Mv_N9ETc/edit?usp=sharing"><i class="fa fa-star"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/posts/self-updating-marketing-dashboard-google-spreadsheets/">Self-Updating Marketing Dashboard on Google Spreadsheets</a></h4>
+    <h5>April 29, 2018</h5>
+    
+    <a href="https://suspicious-wilson-142037.netlify.comtags/learning"><kbd class="item-tag">Learning</kbd></a>
+    
+    <a href="https://suspicious-wilson-142037.netlify.comtags/noc-internship"><kbd class="item-tag">NOC Internship</kbd></a>
+    
+    <a href="https://suspicious-wilson-142037.netlify.comtags/work"><kbd class="item-tag">Work</kbd></a>
+    
+    <a href="https://suspicious-wilson-142037.netlify.comtags/google-spreadsheets"><kbd class="item-tag">Google Spreadsheets</kbd></a>
+    
+    <a href="https://suspicious-wilson-142037.netlify.comtags/automation"><kbd class="item-tag">Automation</kbd></a>
+    
+    <a href="https://suspicious-wilson-142037.netlify.comtags/project"><kbd class="item-tag">Project</kbd></a>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h1 id="how-i-created-an-automated-marketing-dashboard-on-google-spreadsheets">How I created an automated marketing dashboard on Google Spreadsheets</h1>
+
+<h2 id="background">Background</h2>
+
+<p>Perhaps I should first provide some background/context on this project that I worked on. For those that don&rsquo;t know, I am interning at a commercial real estate tech startup in NYC for a year as part of a school programme that my university provided.</p>
+
+<p>So when I first entered my internship company, I noticed that sales/marketing data were all being tracked on Google Spreadsheets. This is common for a startup however there were a few issues:</p>
+
+<ol>
+<li><strong>It isn&rsquo;t automated</strong> - This meant that someone (the previous intern before me), had to manually update the dashboard weekly by pulling the formulas across, cross-referencing marketing spend numbers from various platforms and copying them back to this main dashboard that we had on Google Spreadsheets.</li>
+<li><strong>It was clunky and slow</strong> - The number of formulas used only increased as the weeks passed. There was a point in time when the spreadsheet was linking <sup>5</sup>&frasl;<sub>6</sub> different spreadsheets, and I swear I was so afraid to type in anything on the spreadsheet in fear of something breaking/crashing. Typing in a single cell would take minutes as I had to wait for formulas to load.</li>
+<li><strong>It was prone to errors</strong> - This was a major problem. It was difficult to identify and fix errors as well when everything was running so slowly.</li>
+</ol>
+
+<p>After a while, maintaining the dashboard became a chore and would take me more than an hour each time just to clean up and ensure that every formula was linked correctly.</p>
+
+<h2 id="time-for-change">Time for change</h2>
+
+<p>This was not sustainable with the number of paid users coming on board every week and it was time to redo the way we were tracking these numbers. It took me a while to figure out and learn, but eventually I created a dashboard that was 100% self-sustaining (although I still do a quick 5-minutes check-in on it weekly to ensure everything has been updated smoothly)</p>
+
+<h1 id="creating-the-automated-dashboard">Creating the Automated Dashboard</h1>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>Let&rsquo;s work backwords. First we identify what we want to track, and then we find out how we can get the data to track these numbers.</p>
+
+<table>
+<thead>
+<tr>
+<th>Purpose</th>
+<th align="center">Metrics</th>
+<th align="right">Source of Data</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Sales Reports</td>
+<td align="center">Number/Revenue from Paid Users, Revenue lost from downgrades/churn, Revenue gain from upgrades</td>
+<td align="right">Spreadsheet itself (manual input)</td>
+</tr>
+
+<tr>
+<td>Marketing Reports</td>
+<td align="center">Marketing Spent, CPL, Conversion Funnels, Lead-Paid %</td>
+<td align="right">Adwords, Google Analytics, Facebook Ads, Bing Ads, LinkedIn Ads</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+    
+    
+
+    
+
+    
+
+        <h4 class="page-header">Comments</h4>
+
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "username" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+
+        </footer>
+       
+    </body>
+
+</html>
+

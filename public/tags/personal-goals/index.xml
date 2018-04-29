@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Goals on Brenda Thng</title>
+    <link>https://suspicious-wilson-142037.netlify.com/tags/personal-goals/</link>
+    <description>Recent content in Personal Goals on Brenda Thng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://suspicious-wilson-142037.netlify.com/tags/personal-goals/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Things to Write About</title>
+      <link>https://suspicious-wilson-142037.netlify.com/posts/things-to-write-about/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/posts/things-to-write-about/</guid>
+      <description> Personal NOC Reflections (goals achieved, things to improve on) Goals when I get back  Learning Can I be a data scientist? How I created a product analytics dashboard on flask (Tags: Flask, Python, Numpy, Pandas, Plotly)  gr </description>
+    </item>
+    
+  </channel>
+</rss>

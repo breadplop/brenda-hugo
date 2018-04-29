@@ -6,9 +6,100 @@
     <description>Recent content in Categories on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://suspicious-wilson-142037.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Automation</title>
+      <link>https://suspicious-wilson-142037.netlify.com/categories/automation/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/categories/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cat1</title>
+      <link>https://suspicious-wilson-142037.netlify.com/categories/cat1/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/categories/cat1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Categories for What</title>
+      <link>https://suspicious-wilson-142037.netlify.com/categories/categories-for-what/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/categories/categories-for-what/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google App Scripts</title>
+      <link>https://suspicious-wilson-142037.netlify.com/categories/google-app-scripts/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/categories/google-app-scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Spreadsheets</title>
+      <link>https://suspicious-wilson-142037.netlify.com/categories/google-spreadsheets/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/categories/google-spreadsheets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning</title>
+      <link>https://suspicious-wilson-142037.netlify.com/categories/learning/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/categories/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marketing</title>
+      <link>https://suspicious-wilson-142037.netlify.com/categories/marketing/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/categories/marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Noc Internship</title>
+      <link>https://suspicious-wilson-142037.netlify.com/categories/noc-internship/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/categories/noc-internship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>https://suspicious-wilson-142037.netlify.com/categories/project/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/categories/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Work</title>
+      <link>https://suspicious-wilson-142037.netlify.com/categories/work/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/categories/work/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

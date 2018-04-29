@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://suspicious-wilson-142037.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Analytics</title>
+      <link>https://suspicious-wilson-142037.netlify.com/tags/analytics/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Api</title>
+      <link>https://suspicious-wilson-142037.netlify.com/tags/api/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>https://suspicious-wilson-142037.netlify.com/tags/automation/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/tags/automation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Development</title>
@@ -17,6 +44,15 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://suspicious-wilson-142037.netlify.com/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flask</title>
+      <link>https://suspicious-wilson-142037.netlify.com/tags/flask/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/tags/flask/</guid>
       <description></description>
     </item>
     
@@ -48,11 +84,38 @@
     </item>
     
     <item>
+      <title>Google Spreadsheets</title>
+      <link>https://suspicious-wilson-142037.netlify.com/tags/google-spreadsheets/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/tags/google-spreadsheets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Inspiration</title>
       <link>https://suspicious-wilson-142037.netlify.com/tags/inspiration/</link>
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://suspicious-wilson-142037.netlify.com/tags/inspiration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning</title>
+      <link>https://suspicious-wilson-142037.netlify.com/tags/learning/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Noc Internship</title>
+      <link>https://suspicious-wilson-142037.netlify.com/tags/noc-internship/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/tags/noc-internship/</guid>
       <description></description>
     </item>
     
@@ -66,11 +129,47 @@
     </item>
     
     <item>
+      <title>Personal Goals</title>
+      <link>https://suspicious-wilson-142037.netlify.com/tags/personal-goals/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/tags/personal-goals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>https://suspicious-wilson-142037.netlify.com/tags/project/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://suspicious-wilson-142037.netlify.com/tags/python/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Resume</title>
       <link>https://suspicious-wilson-142037.netlify.com/tags/resume/</link>
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://suspicious-wilson-142037.netlify.com/tags/resume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sql</title>
+      <link>https://suspicious-wilson-142037.netlify.com/tags/sql/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/tags/sql/</guid>
       <description></description>
     </item>
     
@@ -89,6 +188,24 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://suspicious-wilson-142037.netlify.com/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Application</title>
+      <link>https://suspicious-wilson-142037.netlify.com/tags/web-application/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/tags/web-application/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Work</title>
+      <link>https://suspicious-wilson-142037.netlify.com/tags/work/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://suspicious-wilson-142037.netlify.com/tags/work/</guid>
       <description></description>
     </item>
     
