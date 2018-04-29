@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Getting Started on Brenda Thng</title>
-    <link>/tags/getting-started/</link>
+    <link>https://suspicious-wilson-142037.netlify.com/tags/getting-started/</link>
     <description>Recent content in Getting Started on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/getting-started/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://suspicious-wilson-142037.netlify.com/tags/getting-started/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Introduction Post</title>
-      <link>/posts/introduction-post/</link>
+      <link>https://suspicious-wilson-142037.netlify.com/posts/introduction-post/</link>
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/introduction-post/</guid>
+      <guid>https://suspicious-wilson-142037.netlify.com/posts/introduction-post/</guid>
       <description>Welcome to my legit first post Hello world, I have been wanting to start a blog for ages and today I finally got round to doing it, even though I really shouldn&amp;rsquo;t as I have so many other things on my plate at this moment. But I&amp;rsquo;m glad I manage to put inside some time to do this anyway.
 People around me kept telling me that I should start a blog or portfolio of some sort to keep track of my progress, and also to have something to show for in the future.</description>
     </item>
     
     <item>
       <title>First Post Brenda</title>
-      <link>/posts/first-post-brenda/</link>
+      <link>https://suspicious-wilson-142037.netlify.com/posts/first-post-brenda/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/first-post-brenda/</guid>
+      <guid>https://suspicious-wilson-142037.netlify.com/posts/first-post-brenda/</guid>
       <description>Hello Hugo world! No more excuses for having no blog or documentation now! help: https://github.com/calintat/minimal/blob/master/exampleSite/content/post/goisforlovers.md https://opensource.com/article/18/3/start-blog-30-minutes-hugo https://gohugo.io/getting-started/usage/
 when i deploy to firebase, i get an error: https://animal-guesser-bthng.firebaseapp.com/ https://suspicious-wilson-142037.netlify.com/
 to create a new post: hugo new content/posts/first-post-brenda.md

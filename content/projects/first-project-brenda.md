@@ -1,7 +1,7 @@
 ---
 title: "Product Analytics Dashboard"
 date: 2018-04-27
-draft: true
+draft: false
 tags: ["Web Application", "Python", "Flask", "Analytics", "API", "SQL"]
 categories: ["Cat1", "categories for what"]
 ---

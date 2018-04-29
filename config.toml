@@ -13,6 +13,10 @@ googleAnalytics = ""
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "python"]
 
+[taxonomies]
+    tag = "tags"
+    categories = "categories"
+
 [[menu.main]]
     url = "/"
     name = "Home"
@@ -64,3 +68,4 @@ googleAnalytics = ""
  	weight = 6
 
 staticDir = ["static", "static2"]
+
