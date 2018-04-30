@@ -143,19 +143,19 @@
       
 
     <h4><a href="/projects/self-updating-marketing-dashboard-google-spreadsheets/">Self-Updating Marketing Dashboard on Google Spreadsheets</a></h4>
-    <h5>test description</h5>
+    <h5>test description </h5>
     
-    <a href="https://suspicious-wilson-142037.netlify.comtags/learning"><kbd class="item-tag">Learning</kbd></a>
+    <a href="https://suspicious-wilson-142037.netlify.com/tags/learning"><kbd class="item-tag">Learning</kbd></a>
     
-    <a href="https://suspicious-wilson-142037.netlify.comtags/noc-internship"><kbd class="item-tag">NOC Internship</kbd></a>
+    <a href="https://suspicious-wilson-142037.netlify.com/tags/noc-internship"><kbd class="item-tag">NOC Internship</kbd></a>
     
-    <a href="https://suspicious-wilson-142037.netlify.comtags/work"><kbd class="item-tag">Work</kbd></a>
+    <a href="https://suspicious-wilson-142037.netlify.com/tags/work"><kbd class="item-tag">Work</kbd></a>
     
-    <a href="https://suspicious-wilson-142037.netlify.comtags/google-spreadsheets"><kbd class="item-tag">Google Spreadsheets</kbd></a>
+    <a href="https://suspicious-wilson-142037.netlify.com/tags/google-spreadsheets"><kbd class="item-tag">Google Spreadsheets</kbd></a>
     
-    <a href="https://suspicious-wilson-142037.netlify.comtags/automation"><kbd class="item-tag">Automation</kbd></a>
+    <a href="https://suspicious-wilson-142037.netlify.com/tags/automation"><kbd class="item-tag">Automation</kbd></a>
     
-    <a href="https://suspicious-wilson-142037.netlify.comtags/project"><kbd class="item-tag">Project</kbd></a>
+    <a href="https://suspicious-wilson-142037.netlify.com/tags/project"><kbd class="item-tag">Project</kbd></a>
     
 
 </div>
@@ -221,9 +221,150 @@
 <li><label><input type="checkbox" disabled class="task-list-item"> Set-up trigger to run the script weekly (auto-update)</label></li>
 </ul>
 
-<h3 id="retrieving-raw-data">Retrieving raw data</h3>
+<h2 id="retrieving-raw-data-from-the-available-apis">Retrieving raw data from the available APIs</h2>
 
-<p>I had to learn how to retrieve</p>
+<h3 id="adwords">Adwords</h3>
+
+<p>I used this <a href="/Users/brenda/Documents/Self Learning/PersonalBlog/quickstart/public/tags/getting-started/index.html">Adwords Script provided by Google</a> to automatically pull the daily spend, clicks and conversions for the company&rsquo;s Adwords account</p>
+
+<h3 id="facebook-ads">Facebook Ads</h3>
+
+<p>Only the first 17 lines would be relevant as those help to pull the data out. The subsequent codes just shows where the data would be written to.</p>
+
+<pre><code class="language-javascript">function pull_last_week_fb_data() {
+  //call the api, to schedule for weekly
+  var response = UrlFetchApp.fetch(&quot;https://graph.facebook.com/v2.12/act_108344393100552/insights/me?access_token=&lt;YOUR ACCESS TOKEN&gt;&amp;level=account&amp;date_preset=last_week_mon_sun&amp;fields=impressions,spend,actions&quot;);
+  //Logger.log(response.getContentText());
+  
+  var json = response.getContentText();
+  var data = JSON.parse(json);
+  spend = data.data[0].spend;
+  actions_array = data.data[0].actions;
+
+  var num_leads = 0;
+  for (var idx in actions_array){
+    entry = actions_array[idx]
+    if (entry.action_type == &quot;leadgen.other&quot;) {
+      num_leads = entry[&quot;value&quot;]
+    }
+  }
+
+    //extra code for me to write the data into the spreadsheet
+    //use logger.log() for testing and debugging
+  var ss = SpreadsheetApp.openByUrl(&lt;URL OF SPREADSHEET YOU ARE USING&gt;);
+  var sheet = ss.getSheetByName(&lt;NAME OF SHEET DATA IS GOING TO BE WRITTEN TO&gt;);
+  var last_week_col_num = sheet.getRange(32,2).getValue();
+
+  sheet.getRange(41,last_week_col_num).setValue([spend]);
+  sheet.getRange(42,last_week_col_num).setValue([spend/num_leads]);
+  sheet.getRange(43,last_week_col_num).setValue([num_leads]);
+}
+</code></pre>
+
+<h3 id="google-analytics">Google Analytics</h3>
+
+<p>Even though GoogleSpreadsheets has the GoogleAnalytics add-on, I found that the data pulled from there doesn&rsquo;t reflect what is shown on the GA web app. After days of googling, I gave up and decided to pull the data manually. I can&rsquo;t remember who this was referenced from exactly but this was the code I used to pull the GA data.</p>
+
+<pre><code class="language-JAVASCRIPT">function myFunction() {
+  getGAdata(&quot;gadata&quot;,&quot;gadataWEEK&quot;,&quot;ga:106932367&quot;,&quot;2018-01-01&quot;,&quot;yesterday&quot;,&quot;ga:isoWeek,ga:year&quot;,&quot;ga:users,ga:goal14Completions&quot;,&quot;ga:isoWeek&quot;)
+  getGAdata(&quot;gadata&quot;,&quot;gadataMONTH&quot;,&quot;ga:106932367&quot;,&quot;2018-01-01&quot;,&quot;yesterday&quot;,&quot;ga:month,ga:year&quot;,&quot;ga:users,ga:goal14Completions&quot;,&quot;ga:month&quot;)
+}
+
+function getGAdata(reportName,sheetName,gaid,start,end,dims,mets,sort,opt_filters) {
+  var query = {
+    &quot;optionalArgs&quot;: {
+      &quot;dimensions&quot;: dims,
+      &quot;max-results&quot;: &quot;10000&quot;,
+      &quot;samplingLevel&quot;: &quot;HIGHER_PRECISION&quot;
+    },
+    &quot;ids&quot;: gaid,
+    &quot;metrics&quot;: mets,
+    &quot;start-date&quot;: start,
+    &quot;end-date&quot;: end
+  }
+  
+  if(sort){
+   query.optionalArgs.sort = sort; 
+  }
+  if(opt_filters){
+    query.optionalArgs.filters = opt_filters; 
+  }
+  
+  var results = Analytics.Data.Ga.get(query.ids, query['start-date'], query['end-date'], query.metrics, query.optionalArgs);
+  
+  var sheet = SpreadsheetApp.openByUrl(&lt;URL OF SPREADSHEET USED&gt;).getSheetByName(sheetName);
+  outputToSpreadsheet(results, sheet,reportName,results.containsSampledData);
+}
+
+function outputToSpreadsheet(results, sheet, reportName, sampleDataFlag) {
+  //self-added
+  //var ss = SpreadsheetApp.openByUrl(&lt;URL OF SPREADSHEET USED&gt;);
+  //var sheet = ss.getSheetByName(&quot;gadata&quot;);
+  
+  // strings &amp; nums
+  var reportName = reportName||&quot;n/a&quot;;
+
+  // arrays
+  var headerNames = [];
+  
+  // Grab the headers.
+  for (var i = 0, header; header = results.getColumnHeaders()[i]; ++i) {
+    headerNames.push(header.getName());
+  }
+  // Print the headers to top row
+  sheet.getRange(1, 1, 1, headerNames.length)
+      .setValues([headerNames]);
+    
+  // objs
+  var lastRow = sheet.getLastRow() + 1;
+  var gaRows = results.getRows();      //Get total amount of rows
+  var formattedDate = Utilities.formatDate(new Date(), &quot;PST&quot;, &quot;yyyy-MM-dd' 'HH:mm:ss&quot;);
+
+  // Print the rows of data.
+  sheet.getRange(lastRow, 1, gaRows.length, headerNames.length)
+      .setValues(results.getRows());
+  
+  // Debug Key
+  // This is optional and something I like to use.
+  // Print a random key to log API queries, consists of total amount of rows a query has
+  // followed by a random number + date + report + the sample data flag. 
+  // For example 50.098098707 6/28/2016 Report Name sample data: False 
+  // means 50 rows and the random number that can act as a key  + the date it was pulled 
+  // + the report name + if it includes sample data 
+  // 
+  sheet.getRange(lastRow, headerNames.length+1, gaRows.length, 1)
+  .setValue(Math.random()+gaRows.length + &quot; &quot; + formattedDate + &quot; &quot; + reportName + &quot; sample data:&quot; + sampleDataFlag);
+}
+
+</code></pre>
+
+<p>{{<figure src="/static/posts/meetup_with_latif.png" alt= "Meetup with Mr Latif at Limani, 28th Apr 2018 Friday" caption="Meetup with Mr Latif at Limani" width="300">}}</p>
+
+<p>{{<figure src="/static/projects/automated-marketing-dashboard/example-of-ss.png" caption="Example of how the pulled data from Google Analytics appears on the spreadsheet" width="300">}}</p>
+
+<p>I then use some basic excel formulas to sum/calculate relevant numbers to be included in the dashboard.</p>
+
+<p>{{<figure src="/static/projects/automated-marketing-dashboard/marketing-dashboard" alt = "marketing dashboard screenshot" caption="Snippet of the Final Dashboard" width = "500">}}</p>
+
+<hr />
+
+<blockquote>
+<p>Check In</p>
+</blockquote>
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Retrieve raw data from Adwords, FB, LinkedIn, Bing, Google Analytics</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Ensure that data is input in the right location on the spreadsheet</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Set-up trigger to run the script weekly (auto-update)</label></li>
+</ul>
+
+<hr />
+
+<p>Now the final step would be to set up triggers for the scripts to run automatically. This is easy.</p>
+
+<p>Under the script.google.com console, go to <code>Edit &gt; All your triggers</code> and set the trigger.</p>
+
+<p>And now you have a marketing dashboard that will update automatically. Yahoo!</p>
 </div>
 
     

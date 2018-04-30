@@ -3,7 +3,7 @@ title: "Self-Updating Marketing Dashboard on Google Spreadsheets"
 date: 2018-04-29
 draft: false
 description: "test description"
-tags: ["Learning", "NOC Internship", "Work", "Google Spreadsheets", "Automation","Project" ]
+tags: ["Learning", "NOC Internship", "Work", "Google Spreadsheets", "Automation","Project","Marketing", "Google App Scripts" ]
 categories: ["Learning", "NOC Internship", "Work", "Google Spreadsheets", "Automation","Project" , "Marketing", "Google App Scripts"]
 ---
 
@@ -42,5 +42,132 @@ From there we will be able to identify a list of things to do:
 - [ ] Set-up trigger to run the script weekly (auto-update)
 
 
-### Retrieving raw data
-I had to learn how to retrieve 
+## Retrieving raw data from the available APIs
+
+### Adwords
+I used this [Adwords Script provided by Google](/Users/brenda/Documents/Self Learning/PersonalBlog/quickstart/public/tags/getting-started/index.html) to automatically pull the daily spend, clicks and conversions for the company's Adwords account
+
+### Facebook Ads
+Only the first 17 lines would be relevant as those help to pull the data out. The subsequent codes just shows where the data would be written to. 
+```javascript
+function pull_last_week_fb_data() {
+  //call the api, to schedule for weekly
+  var response = UrlFetchApp.fetch("https://graph.facebook.com/v2.12/act_108344393100552/insights/me?access_token=<YOUR ACCESS TOKEN>&level=account&date_preset=last_week_mon_sun&fields=impressions,spend,actions");
+  //Logger.log(response.getContentText());
+  
+  var json = response.getContentText();
+  var data = JSON.parse(json);
+  spend = data.data[0].spend;
+  actions_array = data.data[0].actions;
+
+  var num_leads = 0;
+  for (var idx in actions_array){
+    entry = actions_array[idx]
+    if (entry.action_type == "leadgen.other") {
+      num_leads = entry["value"]
+    }
+  }
+
+    //extra code for me to write the data into the spreadsheet
+    //use logger.log() for testing and debugging
+  var ss = SpreadsheetApp.openByUrl(<URL OF SPREADSHEET YOU ARE USING>);
+  var sheet = ss.getSheetByName(<NAME OF SHEET DATA IS GOING TO BE WRITTEN TO>);
+  var last_week_col_num = sheet.getRange(32,2).getValue();
+
+  sheet.getRange(41,last_week_col_num).setValue([spend]);
+  sheet.getRange(42,last_week_col_num).setValue([spend/num_leads]);
+  sheet.getRange(43,last_week_col_num).setValue([num_leads]);
+}
+```
+
+### Google Analytics
+Even though GoogleSpreadsheets has the GoogleAnalytics add-on, I found that the data pulled from there doesn't reflect what is shown on the GA web app. After days of googling, I gave up and decided to pull the data manually. I can't remember who this was referenced from exactly but this was the code I used to pull the GA data.
+
+```JAVASCRIPT
+function myFunction() {
+  getGAdata("gadata","gadataWEEK","ga:106932367","2018-01-01","yesterday","ga:isoWeek,ga:year","ga:users,ga:goal14Completions","ga:isoWeek")
+  getGAdata("gadata","gadataMONTH","ga:106932367","2018-01-01","yesterday","ga:month,ga:year","ga:users,ga:goal14Completions","ga:month")
+}
+
+function getGAdata(reportName,sheetName,gaid,start,end,dims,mets,sort,opt_filters) {
+  var query = {
+    "optionalArgs": {
+      "dimensions": dims,
+      "max-results": "10000",
+      "samplingLevel": "HIGHER_PRECISION"
+    },
+    "ids": gaid,
+    "metrics": mets,
+    "start-date": start,
+    "end-date": end
+  }
+  
+  if(sort){
+   query.optionalArgs.sort = sort; 
+  }
+  if(opt_filters){
+    query.optionalArgs.filters = opt_filters; 
+  }
+  
+  var results = Analytics.Data.Ga.get(query.ids, query['start-date'], query['end-date'], query.metrics, query.optionalArgs);
+  
+  var sheet = SpreadsheetApp.openByUrl(<URL OF SPREADSHEET USED>).getSheetByName(sheetName);
+  outputToSpreadsheet(results, sheet,reportName,results.containsSampledData);
+}
+
+function outputToSpreadsheet(results, sheet, reportName, sampleDataFlag) {
+  //self-added
+  //var ss = SpreadsheetApp.openByUrl(<URL OF SPREADSHEET USED>);
+  //var sheet = ss.getSheetByName("gadata");
+  
+  // strings & nums
+  var reportName = reportName||"n/a";
+
+  // arrays
+  var headerNames = [];
+  
+  // Grab the headers.
+  for (var i = 0, header; header = results.getColumnHeaders()[i]; ++i) {
+    headerNames.push(header.getName());
+  }
+  // Print the headers to top row
+  sheet.getRange(1, 1, 1, headerNames.length)
+      .setValues([headerNames]);
+    
+  // objs
+  var lastRow = sheet.getLastRow() + 1;
+  var gaRows = results.getRows();      //Get total amount of rows
+  var formattedDate = Utilities.formatDate(new Date(), "PST", "yyyy-MM-dd' 'HH:mm:ss");
+
+  // Print the rows of data.
+  sheet.getRange(lastRow, 1, gaRows.length, headerNames.length)
+      .setValues(results.getRows());
+  
+  // Debug Key
+  // This is optional and something I like to use.
+  // Print a random key to log API queries, consists of total amount of rows a query has
+  // followed by a random number + date + report + the sample data flag. 
+  // For example 50.098098707 6/28/2016 Report Name sample data: False 
+  // means 50 rows and the random number that can act as a key  + the date it was pulled 
+  // + the report name + if it includes sample data 
+  // 
+  sheet.getRange(lastRow, headerNames.length+1, gaRows.length, 1)
+  .setValue(Math.random()+gaRows.length + " " + formattedDate + " " + reportName + " sample data:" + sampleDataFlag);
+}
+
+```
+
+{{<figure src="/static/projects/automated-marketing-dashboard/example-of-ss.png" caption="Example of how the pulled data from Google Analytics appears on the spreadsheet" width="500">}}
+
+---
+
+{{<figure src="/static/projects/automated-marketing-dashboard/marketing-dashboard.png" caption="Snippet of the Final Dashboard" width="500">}}
+
+
+Now the final step would be to set up triggers for the scripts to run automatically. This is easy. 
+
+Under the script.google.com console, go to `Edit > All your triggers` and set the trigger.
+
+
+> And now you have a marketing dashboard that updates automatically. Viola!
+
