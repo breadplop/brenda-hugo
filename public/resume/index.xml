@@ -2,22 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resumes on Brenda Thng</title>
-    <link>https://suspicious-wilson-142037.netlify.com/resume/</link>
+    <link>https://brenda-thng.netlify.com/resume/</link>
     <description>Recent content in Resumes on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://suspicious-wilson-142037.netlify.com/resume/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://brenda-thng.netlify.com/resume/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Brenda Resume</title>
-      <link>https://suspicious-wilson-142037.netlify.com/resume/brenda-resume/</link>
+      <title>Test Resume</title>
+      <link>https://brenda-thng.netlify.com/resume/test-resume/</link>
+      <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/resume/test-resume/</guid>
+      <description>Johnny Coder          1 MyAddress email@example.com   MyTown 1000 @twitter_handle   MyCountry 1800 my-phone-nr    Education  2010-2014 (expected) PhD, Computer Science; Awesome University (MyTown)
+Thesis title: Deep Learning Approaches to the Self-Awesomeness Estimation Problem
+ 2007-2010 BSc, Computer Science and Electrical Engineering; University of HomeTown (HomeTown)
+Minor: Awesomeology
+  Experience Your Most Recent Work Experience:</description>
+    </item>
+    
+    <item>
+      <title>Brenda&#39;s Resume</title>
+      <link>https://brenda-thng.netlify.com/resume/brenda-resume/</link>
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/resume/brenda-resume/</guid>
-      <description></description>
+      <guid>https://brenda-thng.netlify.com/resume/brenda-resume/</guid>
+      <description>View the PDF version here
+Kai Ting Brenda THNG Python, SQL, HTML, CSS, Github, R
+Interest: Business Analytics, Data science, Data visualization, Infographics, Marketing, Fitness
+PROFESSIONAL EXPERIENCE REONOMY, New York, NY, August 2017 - July 2018
+Product Intern
+ Create and maintain dashboards of all company processes Build web application dashboard for product analytics on Python/Flask backed by PostgreSQL, Mixpanel API (create feature audits, cohort analysis charts with Plotly, Numpy and Pandas) Create automated marketing dashboards on Google Spreadsheets with the use of Google App Script and API integrations with various marketing platforms (i.</description>
     </item>
     
   </channel>

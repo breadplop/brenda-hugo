@@ -43,42 +43,42 @@ Interest: Business Analytics, Data science, Data visualization, Infographics, Ma
 + Develop dashboards to effectively track sales orders and inventory using **Tableau**
 + Improved **SEO** for company’s website by 10 page ranks by increasing backlinks and improving website’s metadata
 
----
+
 
 ## ACHIEVEMENTS
 Hack:Trash:NYC 2018 Winner | [Fixly](http://www.hacktrash.nyc/)
 
 BiZiT Festival 2017 Overall Winner for Data Track | [BA Diamonds](http://nusbizit.org/2017/08/18/bizit-festival-2017/)
 
----
+
 
 ## EDUCATION
+##### 2015 - Present, Singapore
+***Bachelor of Science in Business Analytics (Hons), NATIONAL UNIVERSITY OF SINGAPORE***
 
-| 2015 - Present Singapore               | English, Mandarin                |
-| Data visualization used | Klipfolio, Tableau, PowerBI      |
-| Statistical Tools       | Microsoft Suite (Advanced Excel) |
+Undergraduate (GPA 4.45)  
 
+---
 
-2015 - Present
-Singapore
-Bachelor of Science in Business Analytics (Hons), NATIONAL UNIVERSITY OF SINGAPORE
-Undergraduate (GPA 4.45)
-2008 - 2014
-Singapore
-General Certificate of Education (GCE) Advanced Level, NATIONAL JUNIOR COLLEGE
+##### 2008 - 2014, Singapore
+***General Certificate of Education (GCE) Advanced Level, NATIONAL JUNIOR COLLEGE***
+
 Mathematics (A) Chemistry (A) Biology (A)/ Economics (B)
 
-Awards:
-CCA Award (Basketball) 2013 - for outstanding CCA contributions
-Edusave Award for Achievement, Good Leadership and Service (Eagles) Award 2014 - for leadership qualities
+**Awards:**
+
+- CCA Award (Basketball) 2013 - for outstanding CCA contributions
+- Edusave Award for Achievement, Good Leadership and Service (Eagles) Award 2014 - for leadership qualities
+
+
 
 ## ADDITIONAL INFORMATION
 
-|                         |               |                                 |
-| ----------------------- | ---|-------------------------------: |
-| Languages               |               |English, Mandarin                |
-| Data visualization used |               |Klipfolio, Tableau, PowerBI      |
-| Statistical Tools       |               |Microsoft Suite (Advanced Excel) |
+|                         |     |                                  |
+| ----------------------- | --- | -------------------------------: |
+| Languages               |     | English, Mandarin                |
+| Data visualization used |     | Klipfolio, Tableau, PowerBI      |
+| Statistical Tools       |     | Microsoft Suite (Advanced Excel) |
 
 
 

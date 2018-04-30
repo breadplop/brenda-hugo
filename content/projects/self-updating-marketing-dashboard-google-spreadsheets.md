@@ -1,13 +1,13 @@
 ---
-title: "Self-Updating Marketing Dashboard on Google Spreadsheets"
+title: "Marketing Dashboard on Google Spreadsheets"
 date: 2018-04-29
 draft: false
-description: "test description"
+description: "How to create automated dashboards on google spreadsheets"
 tags: ["Learning", "NOC Internship", "Work", "Google Spreadsheets", "Automation","Project","Marketing", "Google App Scripts" ]
-categories: ["Learning", "NOC Internship", "Work", "Google Spreadsheets", "Automation","Project" , "Marketing", "Google App Scripts"]
+categories: ["Learning", "NOC Internship", "Work"]
 ---
 
-# How I created an automated marketing dashboard on Google Spreadsheets
+# How I created an automated/self-updating marketing dashboard on Google Spreadsheets
 
 ## Background
 

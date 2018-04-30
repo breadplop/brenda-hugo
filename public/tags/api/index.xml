@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Api on Brenda Thng</title>
-    <link>https://suspicious-wilson-142037.netlify.com/tags/api/</link>
+    <link>https://brenda-thng.netlify.com/tags/api/</link>
     <description>Recent content in Api on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://suspicious-wilson-142037.netlify.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://brenda-thng.netlify.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Product Analytics Dashboard</title>
-      <link>https://suspicious-wilson-142037.netlify.com/projects/first-project-brenda/</link>
+      <link>https://brenda-thng.netlify.com/projects/first-project-brenda/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/projects/first-project-brenda/</guid>
+      <guid>https://brenda-thng.netlify.com/projects/first-project-brenda/</guid>
       <description>Task Using a Flask framework, I created a simple dashboard to analyse the product performance overtime. I made use of the Mixpanel API and access to the company&amp;rsquo;s database to retrieve and manipulate the data in order to create these charts.
 Some key charts include: Feature Audit Charts, Cohort Analysis Charts, Stickiness Ratio, Engagement Metrics
 Problems Faced 1. 2. 3.

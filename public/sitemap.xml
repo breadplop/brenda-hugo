@@ -3,269 +3,281 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/posts/self-updating-marketing-dashboard-google-spreadsheets/</loc>
+    <loc>https://brenda-thng.netlify.com/resume/test-resume/</loc>
+    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/projects/self-updating-marketing-dashboard-google-spreadsheets/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/projects/self-updating-marketing-dashboard-google-spreadsheets/</loc>
+    <loc>https://brenda-thng.netlify.com/posts/things-to-write-about/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/posts/things-to-write-about/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/resume/brenda-resume/</loc>
+    <loc>https://brenda-thng.netlify.com/resume/brenda-resume/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/posts/introduction-post/</loc>
+    <loc>https://brenda-thng.netlify.com/posts/introduction-post/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/posts/first-post-brenda/</loc>
+    <loc>https://brenda-thng.netlify.com/posts/first-post-brenda/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/projects/first-project-brenda/</loc>
+    <loc>https://brenda-thng.netlify.com/projects/first-project-brenda/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/test-post/</loc>
+    <loc>https://brenda-thng.netlify.com/test-post/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/analytics/</loc>
+    <loc>https://brenda-thng.netlify.com/tags/analytics/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/api/</loc>
+    <loc>https://brenda-thng.netlify.com/tags/api/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/automation/</loc>
+    <loc>https://brenda-thng.netlify.com/tags/automation/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/categories/automation/</loc>
+    <loc>https://brenda-thng.netlify.com/categories/automation/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/</loc>
+    <loc>https://brenda-thng.netlify.com/</loc>
+    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/categories/cat1/</loc>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/categories/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/categories/cat1/</loc>
+    <loc>https://brenda-thng.netlify.com/categories/categories-for-what/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/categories/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/categories/categories-for-what/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/flask/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/getting-started/</loc>
-    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/go/</loc>
+    <loc>https://brenda-thng.netlify.com/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/golang/</loc>
+    <loc>https://brenda-thng.netlify.com/tags/flask/</loc>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/getting-started/</loc>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/categories/google-app-scripts/</loc>
+    <loc>https://brenda-thng.netlify.com/tags/goals/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/google-spreadsheets/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/categories/google-spreadsheets/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/inspiration/</loc>
-    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/learning/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/categories/learning/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/categories/marketing/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/noc-internship/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/categories/noc-internship/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/personal/</loc>
-    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/personal-goals/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/posts/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/project/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/categories/project/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/projects/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/python/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/resume/</loc>
-    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/resume/</loc>
-    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/sql/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/template/</loc>
+    <loc>https://brenda-thng.netlify.com/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/web-application/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/tags/work/</loc>
+    <loc>https://brenda-thng.netlify.com/tags/google-app-scripts/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://suspicious-wilson-142037.netlify.com/categories/work/</loc>
+    <loc>https://brenda-thng.netlify.com/categories/google-app-scripts/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/google-spreadsheets/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/categories/google-spreadsheets/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/inspiration/</loc>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/learning/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/categories/learning/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/marketing/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/categories/marketing/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/noc-internship/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/categories/noc-internship/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/personal/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/posts/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/project/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/categories/project/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/projects/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/python/</loc>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/resume/</loc>
+    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/resume/</loc>
+    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/sql/</loc>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/</loc>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/template/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/web-application/</loc>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/work/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/categories/work/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

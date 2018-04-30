@@ -2,210 +2,228 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Brenda Thng</title>
-    <link>https://suspicious-wilson-142037.netlify.com/tags/</link>
+    <link>https://brenda-thng.netlify.com/tags/</link>
     <description>Recent content in Tags on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://suspicious-wilson-142037.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://brenda-thng.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Analytics</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/analytics/</link>
+      <link>https://brenda-thng.netlify.com/tags/analytics/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/analytics/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Api</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/api/</link>
+      <link>https://brenda-thng.netlify.com/tags/api/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/api/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automation</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/automation/</link>
+      <link>https://brenda-thng.netlify.com/tags/automation/</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/automation/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/automation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/development/</link>
+      <link>https://brenda-thng.netlify.com/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/development/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Flask</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/flask/</link>
+      <link>https://brenda-thng.netlify.com/tags/flask/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/flask/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/flask/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Getting Started</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/getting-started/</link>
+      <link>https://brenda-thng.netlify.com/tags/getting-started/</link>
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/getting-started/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/getting-started/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/go/</link>
+      <link>https://brenda-thng.netlify.com/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/go/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Goals</title>
+      <link>https://brenda-thng.netlify.com/tags/goals/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/tags/goals/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/golang/</link>
+      <link>https://brenda-thng.netlify.com/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/golang/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google App Scripts</title>
+      <link>https://brenda-thng.netlify.com/tags/google-app-scripts/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/tags/google-app-scripts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google Spreadsheets</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/google-spreadsheets/</link>
+      <link>https://brenda-thng.netlify.com/tags/google-spreadsheets/</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/google-spreadsheets/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/google-spreadsheets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Inspiration</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/inspiration/</link>
+      <link>https://brenda-thng.netlify.com/tags/inspiration/</link>
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/inspiration/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/inspiration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/learning/</link>
+      <link>https://brenda-thng.netlify.com/tags/learning/</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/learning/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marketing</title>
+      <link>https://brenda-thng.netlify.com/tags/marketing/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/tags/marketing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Noc Internship</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/noc-internship/</link>
+      <link>https://brenda-thng.netlify.com/tags/noc-internship/</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/noc-internship/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/noc-internship/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personal</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/personal/</link>
-      <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal Goals</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/personal-goals/</link>
+      <link>https://brenda-thng.netlify.com/tags/personal/</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/personal-goals/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/project/</link>
+      <link>https://brenda-thng.netlify.com/tags/project/</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/project/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/python/</link>
+      <link>https://brenda-thng.netlify.com/tags/python/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/python/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Resume</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/resume/</link>
-      <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
+      <link>https://brenda-thng.netlify.com/tags/resume/</link>
+      <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/resume/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/resume/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sql</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/sql/</link>
+      <link>https://brenda-thng.netlify.com/tags/sql/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/sql/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/sql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Template</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/template/</link>
+      <link>https://brenda-thng.netlify.com/tags/template/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/template/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/template/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Themes</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/themes/</link>
+      <link>https://brenda-thng.netlify.com/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/themes/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Application</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/web-application/</link>
+      <link>https://brenda-thng.netlify.com/tags/web-application/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/web-application/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/web-application/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Work</title>
-      <link>https://suspicious-wilson-142037.netlify.com/tags/work/</link>
+      <link>https://brenda-thng.netlify.com/tags/work/</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://suspicious-wilson-142037.netlify.com/tags/work/</guid>
+      <guid>https://brenda-thng.netlify.com/tags/work/</guid>
       <description></description>
     </item>
     

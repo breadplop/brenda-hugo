@@ -2,7 +2,7 @@
 title: "Things to Write About"
 date: 2018-04-29
 draft: false
-tags: ["Personal, Goals"]
+tags: ["Personal", "Goals"]
 ---
 
 ## Personal
