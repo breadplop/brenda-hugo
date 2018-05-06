@@ -8,31 +8,6 @@
   </url>
   
   <url>
-    <loc>https://brenda-thng.netlify.com/posts/introduction-to-elm/</loc>
-    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brenda-thng.netlify.com/posts/create-dashboard-on-flask-heroku/</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brenda-thng.netlify.com/posts/internship-experience-in-nyc/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brenda-thng.netlify.com/projects/product-analytics-dashboard/readme/</loc>
-    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brenda-thng.netlify.com/resume/test-resume/</loc>
-    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://brenda-thng.netlify.com/projects/self-updating-marketing-dashboard-google-spreadsheets/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
   </url>
@@ -53,7 +28,7 @@
   </url>
   
   <url>
-    <loc>https://brenda-thng.netlify.com/posts/first-post-brenda/</loc>
+    <loc>https://brenda-thng.netlify.com/private/first-post-brenda/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -104,7 +79,7 @@
   
   <url>
     <loc>https://brenda-thng.netlify.com/tags/flask/</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -145,20 +120,14 @@
   </url>
   
   <url>
-    <loc>https://brenda-thng.netlify.com/tags/heroku/</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://brenda-thng.netlify.com/tags/inspiration/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://brenda-thng.netlify.com/tags/internship/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+    <loc>https://brenda-thng.netlify.com/tags/learning/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -169,19 +138,7 @@
   </url>
   
   <url>
-    <loc>https://brenda-thng.netlify.com/tags/learning/</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://brenda-thng.netlify.com/tags/marketing/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://brenda-thng.netlify.com/categories/noc-internship/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -193,32 +150,20 @@
   </url>
   
   <url>
-    <loc>https://brenda-thng.netlify.com/tags/nyc/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://brenda-thng.netlify.com/categories/personal/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+    <loc>https://brenda-thng.netlify.com/categories/noc-internship/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://brenda-thng.netlify.com/tags/personal/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://brenda-thng.netlify.com/tags/postgresql/</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://brenda-thng.netlify.com/posts/</loc>
-    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -236,7 +181,7 @@
   
   <url>
     <loc>https://brenda-thng.netlify.com/projects/</loc>
-    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -248,19 +193,13 @@
   
   <url>
     <loc>https://brenda-thng.netlify.com/tags/resume/</loc>
-    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://brenda-thng.netlify.com/resume/</loc>
-    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://brenda-thng.netlify.com/tags/special/</loc>
-    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -295,13 +234,13 @@
   </url>
   
   <url>
-    <loc>https://brenda-thng.netlify.com/categories/work/</loc>
+    <loc>https://brenda-thng.netlify.com/tags/work/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://brenda-thng.netlify.com/tags/work/</loc>
+    <loc>https://brenda-thng.netlify.com/categories/work/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

@@ -6,23 +6,10 @@
     <description>Recent content in Resume on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://brenda-thng.netlify.com/tags/resume/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Test Resume</title>
-      <link>https://brenda-thng.netlify.com/resume/test-resume/</link>
-      <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/resume/test-resume/</guid>
-      <description>Johnny Coder          1 MyAddress email@example.com   MyTown 1000 @twitter_handle   MyCountry 1800 my-phone-nr    Education  2010-2014 (expected) PhD, Computer Science; Awesome University (MyTown)
-Thesis title: Deep Learning Approaches to the Self-Awesomeness Estimation Problem
- 2007-2010 BSc, Computer Science and Electrical Engineering; University of HomeTown (HomeTown)
-Minor: Awesomeology
-  Experience Your Most Recent Work Experience:</description>
-    </item>
     
     <item>
       <title>Brenda&#39;s Resume</title>
@@ -30,7 +17,7 @@ Minor: Awesomeology
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/resume/brenda-resume/</guid>
-      <description>View the PDF version here
+      <description>View the GoogleDoc version here
 Kai Ting Brenda THNG Python, SQL, HTML, CSS, Github, R
 Interest: Business Analytics, Data science, Data visualization, Infographics, Marketing, Fitness
 PROFESSIONAL EXPERIENCE REONOMY, New York, NY, August 2017 - July 2018

@@ -17,7 +17,22 @@
       <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/private/test-blog/</guid>
-      <description>Testing My Private Blog Hello, this is not searchable?</description>
+      <description>Hello Hello, this is not searchable?
+am i a failure. ive been trying to lose weight since forever. ive gained 4 kg since ive been here. it sucks. the feeling really really sucks.</description>
+    </item>
+    
+    <item>
+      <title>First Post Brenda</title>
+      <link>https://brenda-thng.netlify.com/private/first-post-brenda/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/private/first-post-brenda/</guid>
+      <description>Hello Hugo world! No more excuses for having no blog or documentation now!
+Help: Link to theme Start a Blog in 30 minutes with Hugo GoHugo.io Getting-started documentation
+Deployment Sites Firebase Netlify
+var s = &amp;quot;JavaScript syntax highlighting&amp;quot;; alert(s);  s = &amp;quot;Python syntax highlighting&amp;quot; print s  No language indicated, so no syntax highlighting. But let&#39;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.  https://highlightjs.org/static/demo/
+Link to Markdown Cheatsheet
+How to use hugo  to create a new post  hugo new posts/introduction-post.</description>
     </item>
     
   </channel>

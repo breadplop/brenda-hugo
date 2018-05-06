@@ -17,56 +17,8 @@
       <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/private/test-blog/</guid>
-      <description>Testing My Private Blog Hello, this is not searchable?</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Elm</title>
-      <link>https://brenda-thng.netlify.com/posts/introduction-to-elm/</link>
-      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/posts/introduction-to-elm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Create Dashboard on Flask-Heroku</title>
-      <link>https://brenda-thng.netlify.com/posts/create-dashboard-on-flask-heroku/</link>
-      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/posts/create-dashboard-on-flask-heroku/</guid>
-      <description> Checklist In order to host your Flask Application on Heroku, ensure that you have&amp;hellip;  Procfile file [gunicorn] Requirements.txt file  </description>
-    </item>
-    
-    <item>
-      <title>Internship Experience in NYC</title>
-      <link>https://brenda-thng.netlify.com/posts/internship-experience-in-nyc/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/posts/internship-experience-in-nyc/</guid>
-      <description>The City That Never Sleeps So,</description>
-    </item>
-    
-    <item>
-      <title>Readme</title>
-      <link>https://brenda-thng.netlify.com/projects/product-analytics-dashboard/readme/</link>
-      <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/projects/product-analytics-dashboard/readme/</guid>
-      <description>Feature Audit To update: PlotDefault() function in feature_audit_tabulate2.py file - to change start and end month</description>
-    </item>
-    
-    <item>
-      <title>Test Resume</title>
-      <link>https://brenda-thng.netlify.com/resume/test-resume/</link>
-      <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/resume/test-resume/</guid>
-      <description>Johnny Coder          1 MyAddress email@example.com   MyTown 1000 @twitter_handle   MyCountry 1800 my-phone-nr    Education  2010-2014 (expected) PhD, Computer Science; Awesome University (MyTown)
-Thesis title: Deep Learning Approaches to the Self-Awesomeness Estimation Problem
- 2007-2010 BSc, Computer Science and Electrical Engineering; University of HomeTown (HomeTown)
-Minor: Awesomeology
-  Experience Your Most Recent Work Experience:</description>
+      <description>Hello Hello, this is not searchable?
+am i a failure. ive been trying to lose weight since forever. ive gained 4 kg since ive been here. it sucks. the feeling really really sucks.</description>
     </item>
     
     <item>
@@ -94,7 +46,7 @@ So when I first entered my internship company, I noticed that sales/marketing da
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/resume/brenda-resume/</guid>
-      <description>View the PDF version here
+      <description>View the GoogleDoc version here
 Kai Ting Brenda THNG Python, SQL, HTML, CSS, Github, R
 Interest: Business Analytics, Data science, Data visualization, Infographics, Marketing, Fitness
 PROFESSIONAL EXPERIENCE REONOMY, New York, NY, August 2017 - July 2018
@@ -114,10 +66,10 @@ People around me kept telling me that I should start a blog or portfolio of some
     
     <item>
       <title>First Post Brenda</title>
-      <link>https://brenda-thng.netlify.com/posts/first-post-brenda/</link>
+      <link>https://brenda-thng.netlify.com/private/first-post-brenda/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://brenda-thng.netlify.com/posts/first-post-brenda/</guid>
+      <guid>https://brenda-thng.netlify.com/private/first-post-brenda/</guid>
       <description>Hello Hugo world! No more excuses for having no blog or documentation now!
 Help: Link to theme Start a Blog in 30 minutes with Hugo GoHugo.io Getting-started documentation
 Deployment Sites Firebase Netlify

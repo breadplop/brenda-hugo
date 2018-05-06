@@ -23,10 +23,10 @@ People around me kept telling me that I should start a blog or portfolio of some
     
     <item>
       <title>First Post Brenda</title>
-      <link>https://brenda-thng.netlify.com/posts/first-post-brenda/</link>
+      <link>https://brenda-thng.netlify.com/private/first-post-brenda/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://brenda-thng.netlify.com/posts/first-post-brenda/</guid>
+      <guid>https://brenda-thng.netlify.com/private/first-post-brenda/</guid>
       <description>Hello Hugo world! No more excuses for having no blog or documentation now!
 Help: Link to theme Start a Blog in 30 minutes with Hugo GoHugo.io Getting-started documentation
 Deployment Sites Firebase Netlify

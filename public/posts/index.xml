@@ -6,37 +6,10 @@
     <description>Recent content in Posts on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://brenda-thng.netlify.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Introduction to Elm</title>
-      <link>https://brenda-thng.netlify.com/posts/introduction-to-elm/</link>
-      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/posts/introduction-to-elm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Create Dashboard on Flask-Heroku</title>
-      <link>https://brenda-thng.netlify.com/posts/create-dashboard-on-flask-heroku/</link>
-      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/posts/create-dashboard-on-flask-heroku/</guid>
-      <description> Checklist In order to host your Flask Application on Heroku, ensure that you have&amp;hellip;  Procfile file [gunicorn] Requirements.txt file  </description>
-    </item>
-    
-    <item>
-      <title>Internship Experience in NYC</title>
-      <link>https://brenda-thng.netlify.com/posts/internship-experience-in-nyc/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/posts/internship-experience-in-nyc/</guid>
-      <description>The City That Never Sleeps So,</description>
-    </item>
     
     <item>
       <title>Things to Write About</title>
@@ -55,20 +28,6 @@
       <guid>https://brenda-thng.netlify.com/posts/introduction-post/</guid>
       <description>Welcome to my legit first post Hello world, I have been wanting to start a blog for ages and today I finally got round to doing it, even though I really shouldn&amp;rsquo;t as I have so many other things on my plate at this moment. But I&amp;rsquo;m glad I manage to put inside some time to do this anyway.
 People around me kept telling me that I should start a blog or portfolio of some sort to keep track of my progress, and also to have something to show for in the future.</description>
-    </item>
-    
-    <item>
-      <title>First Post Brenda</title>
-      <link>https://brenda-thng.netlify.com/posts/first-post-brenda/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/posts/first-post-brenda/</guid>
-      <description>Hello Hugo world! No more excuses for having no blog or documentation now!
-Help: Link to theme Start a Blog in 30 minutes with Hugo GoHugo.io Getting-started documentation
-Deployment Sites Firebase Netlify
-var s = &amp;quot;JavaScript syntax highlighting&amp;quot;; alert(s);  s = &amp;quot;Python syntax highlighting&amp;quot; print s  No language indicated, so no syntax highlighting. But let&#39;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.  https://highlightjs.org/static/demo/
-Link to Markdown Cheatsheet
-How to use hugo  to create a new post  hugo new posts/introduction-post.</description>
     </item>
     
   </channel>
