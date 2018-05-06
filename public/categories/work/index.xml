@@ -12,13 +12,24 @@
     
     
     <item>
-      <title>Self-Updating Marketing Dashboard on Google Spreadsheets</title>
+      <title>Marketing Dashboard on Google Spreadsheets</title>
       <link>https://brenda-thng.netlify.com/projects/self-updating-marketing-dashboard-google-spreadsheets/</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/projects/self-updating-marketing-dashboard-google-spreadsheets/</guid>
-      <description>How I created an automated marketing dashboard on Google Spreadsheets Background Perhaps I should first provide some background/context on this project that I worked on. For those that don&amp;rsquo;t know, I am interning at a commercial real estate tech startup in NYC for a year as part of a school programme that my university provided.
+      <description>How I created an automated/self-updating marketing dashboard on Google Spreadsheets Background Perhaps I should first provide some background/context on this project that I worked on. For those that don&amp;rsquo;t know, I am interning at a commercial real estate tech startup in NYC for a year as part of a school programme that my university provided.
 So when I first entered my internship company, I noticed that sales/marketing data were all being tracked on Google Spreadsheets.</description>
+    </item>
+    
+    <item>
+      <title>Product Analytics Dashboard</title>
+      <link>https://brenda-thng.netlify.com/projects/first-project-brenda/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/projects/first-project-brenda/</guid>
+      <description>Task As part of the product team, I was tasked to create analyze and construct product metrics so that we take a more systematic and data-driven approach when it comes to designing the product and strategizing company goals.
+Using a Flask framework, I created a simple dashboard to evaluate and analyse the product performance overtime.
+I made use of the Mixpanel API and company&amp;rsquo;s database to retrieve and manipulate the data in order to create these charts.</description>
     </item>
     
   </channel>

@@ -17,10 +17,9 @@
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/projects/first-project-brenda/</guid>
-      <description>Task Using a Flask framework, I created a simple dashboard to analyse the product performance overtime. I made use of the Mixpanel API and access to the company&amp;rsquo;s database to retrieve and manipulate the data in order to create these charts.
-Some key charts include: Feature Audit Charts, Cohort Analysis Charts, Stickiness Ratio, Engagement Metrics
-Problems Faced 1. 2. 3.
-Lessons learnt 1. 2. 3.</description>
+      <description>Task As part of the product team, I was tasked to create analyze and construct product metrics so that we take a more systematic and data-driven approach when it comes to designing the product and strategizing company goals.
+Using a Flask framework, I created a simple dashboard to evaluate and analyse the product performance overtime.
+I made use of the Mixpanel API and company&amp;rsquo;s database to retrieve and manipulate the data in order to create these charts.</description>
     </item>
     
   </channel>

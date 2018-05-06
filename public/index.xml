@@ -6,10 +6,28 @@
     <description>Recent content on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://brenda-thng.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Internship Experience in NYC</title>
+      <link>https://brenda-thng.netlify.com/posts/internship-experience-in-nyc/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/posts/internship-experience-in-nyc/</guid>
+      <description>The City That Never Sleeps So,</description>
+    </item>
+    
+    <item>
+      <title>Readme</title>
+      <link>https://brenda-thng.netlify.com/projects/product-analytics-dashboard/readme/</link>
+      <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/projects/product-analytics-dashboard/readme/</guid>
+      <description>Feature Audit To update: PlotDefault() function in feature_audit_tabulate2.py file - to change start and end month</description>
+    </item>
     
     <item>
       <title>Test Resume</title>
@@ -25,12 +43,12 @@ Minor: Awesomeology
     </item>
     
     <item>
-      <title>Self-Updating Marketing Dashboard on Google Spreadsheets</title>
+      <title>Marketing Dashboard on Google Spreadsheets</title>
       <link>https://brenda-thng.netlify.com/projects/self-updating-marketing-dashboard-google-spreadsheets/</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/projects/self-updating-marketing-dashboard-google-spreadsheets/</guid>
-      <description>How I created an automated marketing dashboard on Google Spreadsheets Background Perhaps I should first provide some background/context on this project that I worked on. For those that don&amp;rsquo;t know, I am interning at a commercial real estate tech startup in NYC for a year as part of a school programme that my university provided.
+      <description>How I created an automated/self-updating marketing dashboard on Google Spreadsheets Background Perhaps I should first provide some background/context on this project that I worked on. For those that don&amp;rsquo;t know, I am interning at a commercial real estate tech startup in NYC for a year as part of a school programme that my university provided.
 So when I first entered my internship company, I noticed that sales/marketing data were all being tracked on Google Spreadsheets.</description>
     </item>
     
@@ -40,7 +58,7 @@ So when I first entered my internship company, I noticed that sales/marketing da
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/posts/things-to-write-about/</guid>
-      <description> Personal NOC Reflections (goals achieved, things to improve on) Goals when I get back  Learning Can I be a data scientist? How I created a product analytics dashboard on flask (Tags: Flask, Python, Numpy, Pandas, Plotly)  gr </description>
+      <description> Personal NOC Reflections (goals achieved, things to improve on) Goals when I get back  Learning Can I be a data scientist? How I created a product analytics dashboard on flask (Tags: Flask, Python, Numpy, Pandas, Plotly)  Good reads Interesting Companies  - nice data visualizations on property in Singapore - Data Pipeline as a Service  Quotes </description>
     </item>
     
     <item>
@@ -87,10 +105,9 @@ How to use hugo  to create a new post  hugo new posts/introduction-post.</descri
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/projects/first-project-brenda/</guid>
-      <description>Task Using a Flask framework, I created a simple dashboard to analyse the product performance overtime. I made use of the Mixpanel API and access to the company&amp;rsquo;s database to retrieve and manipulate the data in order to create these charts.
-Some key charts include: Feature Audit Charts, Cohort Analysis Charts, Stickiness Ratio, Engagement Metrics
-Problems Faced 1. 2. 3.
-Lessons learnt 1. 2. 3.</description>
+      <description>Task As part of the product team, I was tasked to create analyze and construct product metrics so that we take a more systematic and data-driven approach when it comes to designing the product and strategizing company goals.
+Using a Flask framework, I created a simple dashboard to evaluate and analyse the product performance overtime.
+I made use of the Mixpanel API and company&amp;rsquo;s database to retrieve and manipulate the data in order to create these charts.</description>
     </item>
     
     <item>
