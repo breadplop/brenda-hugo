@@ -1,7 +1,7 @@
 ---
 title: "Internship Experience in NYC"
 date: 2018-05-01
-draft: false
+draft: true
 tags: ["Personal","Internship","NYC"]
 categories: ["Personal"]
 ---

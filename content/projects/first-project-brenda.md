@@ -16,15 +16,19 @@ I made use of the Mixpanel API and company's database to retrieve and manipulate
 *Key charts include: Feature Audit Charts, Cohort Analysis Charts, Stickiness Ratio, Engagement Metrics*
 
 ### Problems Faced
-1.
-2.
-3.
+1. How to retrieve the data using APIs
+2. How to create filters on the front-end which will reflect change on the charts immediately
+3. Debugging
 
 ### Lessons learnt
-1.
-2.
+1. How to use the Flask Framework to create a basic web application
+2. How to structure the code to make it readable and repeatable
 
+I will be writing about the process as the time passes. 
 
+#### View Demo
+- [Version 1 - Static Website](http://donnydata.netlify.com)
+- [Version 2 - Hosted on Heroku (protected)](https://flask-reporting-app.herokuapp.com/)
 
 Reference:
-/Users/brenda/Documents/Self Learning/PersonalBlog/quickstart/content/projects/product-analytics-dashboard/readme.md
+    /Users/brenda/Documents/Self Learning/PersonalBlog/quickstart/content/projects/product-analytics-dashboard/readme.md
