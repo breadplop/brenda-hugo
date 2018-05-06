@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://brenda-thng.netlify.com/private/test-blog/</loc>
+    <lastmod>2018-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/posts/introduction-to-elm/</loc>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/posts/create-dashboard-on-flask-heroku/</loc>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://brenda-thng.netlify.com/posts/internship-experience-in-nyc/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url>
@@ -72,7 +87,7 @@
   
   <url>
     <loc>https://brenda-thng.netlify.com/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -89,7 +104,7 @@
   
   <url>
     <loc>https://brenda-thng.netlify.com/tags/flask/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -130,6 +145,12 @@
   </url>
   
   <url>
+    <loc>https://brenda-thng.netlify.com/tags/heroku/</loc>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://brenda-thng.netlify.com/tags/inspiration/</loc>
     <lastmod>2018-04-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -149,7 +170,7 @@
   
   <url>
     <loc>https://brenda-thng.netlify.com/tags/learning/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -190,8 +211,20 @@
   </url>
   
   <url>
+    <loc>https://brenda-thng.netlify.com/tags/postgresql/</loc>
+    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://brenda-thng.netlify.com/posts/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/private/</loc>
+    <lastmod>2018-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

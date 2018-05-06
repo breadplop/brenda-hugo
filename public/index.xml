@@ -6,10 +6,37 @@
     <description>Recent content on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://brenda-thng.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Test Blog</title>
+      <link>https://brenda-thng.netlify.com/private/test-blog/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/private/test-blog/</guid>
+      <description>Testing My Private Blog Hello, this is not searchable?</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Elm</title>
+      <link>https://brenda-thng.netlify.com/posts/introduction-to-elm/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/posts/introduction-to-elm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Create Dashboard on Flask-Heroku</title>
+      <link>https://brenda-thng.netlify.com/posts/create-dashboard-on-flask-heroku/</link>
+      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/posts/create-dashboard-on-flask-heroku/</guid>
+      <description> Checklist In order to host your Flask Application on Heroku, ensure that you have&amp;hellip;  Procfile file [gunicorn] Requirements.txt file  </description>
+    </item>
     
     <item>
       <title>Internship Experience in NYC</title>
