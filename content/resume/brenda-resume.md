@@ -5,8 +5,8 @@ draft: false
 tags: ["Resume"]
 categories: []
 ---
-
-[View the PDF version here](https://docs.google.com/document/d/1eyDSzV6hueRA6yl05hzjWYEhe6MBJQ8sHp_Mv_N9ETc/edit)
+[View the PDF version here](/data/resume_2018.pdf)
+[View the GoogleDoc version here](https://docs.google.com/document/d/1eyDSzV6hueRA6yl05hzjWYEhe6MBJQ8sHp_Mv_N9ETc/edit)
 
 # Kai Ting Brenda THNG
 ---
