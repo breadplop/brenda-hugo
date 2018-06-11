@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Tags</title>
+        <title>How to Use Python With Google Spreadsheets</title>
         
         <style>
 
@@ -61,9 +61,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.40.1" />
         
-        <link href="https://brenda-thng.netlify.com/tags/index.xml" rel="alternate" type="application/rss+xml" title="Brenda Thng" />
-        <link href="https://brenda-thng.netlify.com/tags/index.xml" rel="feed" type="application/rss+xml" title="Brenda Thng" />
-        
 
         
     </head>
@@ -83,7 +80,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Tags</a>
+                    <a class="navbar-brand visible-xs" href="#">How to Use Python With Google Spreadsheets</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -136,9 +133,7 @@
 
 <main>
 
-    <h2>Tags</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -147,154 +142,75 @@
     
     
 
-    <h4><a href="/tags/marketing/">Marketing</a></h4>
-    <h5>April 29, 2018 </h5>
-    
-
-</div>
-   <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/noc-internship/">Noc Internship</a></h4>
-    <h5>April 29, 2018 </h5>
-    
-
-</div>
-   <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/personal/">Personal</a></h4>
-    <h5>April 29, 2018 </h5>
-    
-
-</div>
-   <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/project/">Project</a></h4>
-    <h5>April 29, 2018 </h5>
-    
-
-</div>
-   <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/python/">Python</a></h4>
+    <h4><a href="/posts/how-to-use-python-with-google-spreadsheets/">How to Use Python With Google Spreadsheets</a></h4>
     <h5>May 8, 2018 </h5>
     
-
-</div>
-   <div class="item">
-
+    <a href="https://brenda-thng.netlify.com/tags/learning"><kbd class="item-tag">Learning</kbd></a>
     
+    <a href="https://brenda-thng.netlify.com/tags/python"><kbd class="item-tag">Python</kbd></a>
     
-    
-
-    
-    
-
-    <h4><a href="/tags/reads/">Reads</a></h4>
-    <h5>April 29, 2018 </h5>
+    <a href="https://brenda-thng.netlify.com/tags/google-spreadsheets"><kbd class="item-tag">Google Spreadsheets</kbd></a>
     
 
 </div>
-   <div class="item">
 
-    
-    
-    
 
-    
-    
+    <br> <div class="text-justify">
 
-    <h4><a href="/tags/resume/">Resume</a></h4>
-    <h5>April 28, 2018 </h5>
-    
+<h1 id="how-to-use-python-with-google-spreadsheets">How to Use Python with Google Spreadsheets</h1>
 
+<h2 id="intro">Intro</h2>
+
+<p>I recently wanted to pull data from Google Spreadsheets, do some manipulation using Python, and push the <em>cleaned</em> data back onto Google Spreadsheets. And so I was resaerching on ways to connect <strong>read</strong> and <strong>write</strong> gspreadsheets with Python.</p>
+
+<p>Upon Googling I realized that there are a few ways to do it, and yet many of them seems to be outdated. As of today, 8th May 2018, I have yet to figure it out. But I would be writing about the process to get this done.</p>
+
+<h2 id="current-methods">Current Methods</h2>
+
+<p>So currently, there are a few ways we can go about doing so&hellip;
+1. <a href="https://developers.google.com/sheets/api/quickstart/python">Google Api</a> This doesn&rsquo;t seem to work too well, I encounter a <code>Key Error: '_module'</code> <a href="https://www.reddit.com/r/Python/comments/7yvr4b/python_google_sheets_is_gspread_the_only_way_to_go/">error</a>.
+2. <a href="https://github.com/burnash/gspread">Gspread package</a> might be outdated
+3. <a href="https://pypi.org/project/gsheets/">Gsheets package</a> have yet to try
+4. <a href="www.google.com">pygsheets package</a></p>
+
+<h2 id="update">Update</h2>
+
+<p>I have tried the Gspread package from burnash and it worked great!! Easy to understand documentation as well.</p>
 </div>
-   <div class="item">
-
-    
-    
-    
 
     
     
 
-    <h4><a href="/tags/sql/">Sql</a></h4>
-    <h5>April 27, 2018 </h5>
-    
-
-</div>
-   <div class="item">
-
-    
-    
     
 
     
-    
 
-    <h4><a href="/tags/web-application/">Web Application</a></h4>
-    <h5>April 27, 2018 </h5>
-    
+        <h4 class="page-header">Comments</h4>
 
-</div>
-   <div class="item">
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "username" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
     
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/work/">Work</a></h4>
-    <h5>April 29, 2018 </h5>
-    
-
-</div>
-  
 
 </main>
-
-
-
-<div class="pages">
-
-    
-    <a class="icon pages-icon" href="/tags/" rel="prev">
-        <i class="fa fa-arrow-left"></i>
-    </a>
-     
-
-</div>
-
-
 
         <footer>
 
@@ -305,3 +221,4 @@
     </body>
 
 </html>
+

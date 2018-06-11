@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Brenda Thng"
 theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
-googleAnalytics = ""
+googleAnalytics = "UA-120655635-1"
 
 [params]
 	accent = "purple"

@@ -6,10 +6,20 @@
     <description>Recent content on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://brenda-thng.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Use Python With Google Spreadsheets</title>
+      <link>https://brenda-thng.netlify.com/posts/how-to-use-python-with-google-spreadsheets/</link>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/posts/how-to-use-python-with-google-spreadsheets/</guid>
+      <description>How to Use Python with Google Spreadsheets Intro I recently wanted to pull data from Google Spreadsheets, do some manipulation using Python, and push the cleaned data back onto Google Spreadsheets. And so I was resaerching on ways to connect read and write gspreadsheets with Python.
+Upon Googling I realized that there are a few ways to do it, and yet many of them seems to be outdated. As of today, 8th May 2018, I have yet to figure it out.</description>
+    </item>
     
     <item>
       <title>Test Blog</title>
@@ -37,7 +47,10 @@ So when I first entered my internship company, I noticed that sales/marketing da
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/posts/things-to-write-about/</guid>
-      <description> Personal NOC Reflections (goals achieved, things to improve on) Goals when I get back  Learning Can I be a data scientist? How I created a product analytics dashboard on flask (Tags: Flask, Python, Numpy, Pandas, Plotly)  Good reads Interesting Companies  - nice data visualizations on property in Singapore - Data Pipeline as a Service  Quotes </description>
+      <description> Personal NOC Reflections (goals achieved, things to improve on) Goals when I get back  Learning Can I be a data scientist? How I created a product analytics dashboard on flask (Tags: Flask, Python, Numpy, Pandas, Plotly)  Good reads Entrepreurship  | Title | Notes | |&amp;mdash;|&amp;mdash;| |
+Interesting Companies - nice data visualizations on property in Singapore
+ - Data Pipeline as a Service
+  Quotes </description>
     </item>
     
     <item>
@@ -47,11 +60,7 @@ So when I first entered my internship company, I noticed that sales/marketing da
       
       <guid>https://brenda-thng.netlify.com/resume/brenda-resume/</guid>
       <description>View the GoogleDoc version here
-Kai Ting Brenda THNG Python, SQL, HTML, CSS, Github, R
-Interest: Business Analytics, Data science, Data visualization, Infographics, Marketing, Fitness
-PROFESSIONAL EXPERIENCE REONOMY, New York, NY, August 2017 - July 2018
-Product Intern
- Create and maintain dashboards of all company processes Build web application dashboard for product analytics on Python/Flask backed by PostgreSQL, Mixpanel API (create feature audits, cohort analysis charts with Plotly, Numpy and Pandas) Create automated marketing dashboards on Google Spreadsheets with the use of Google App Script and API integrations with various marketing platforms (i.</description>
+ (Last updated: May 2018)</description>
     </item>
     
     <item>
@@ -87,16 +96,6 @@ How to use hugo  to create a new post  hugo new posts/introduction-post.</descri
       <description>Task As part of the product team, I was tasked to create analyze and construct product metrics so that we take a more systematic and data-driven approach when it comes to designing the product and strategizing company goals.
 Using a Flask framework, I created a simple dashboard to evaluate and analyse the product performance overtime.
 I made use of the Mixpanel API and company&amp;rsquo;s database to retrieve and manipulate the data in order to create these charts.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://brenda-thng.netlify.com/test-post/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/test-post/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
     </item>
     
   </channel>

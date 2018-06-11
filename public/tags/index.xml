@@ -39,15 +39,6 @@
     </item>
     
     <item>
-      <title>Development</title>
-      <link>https://brenda-thng.netlify.com/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Flask</title>
       <link>https://brenda-thng.netlify.com/tags/flask/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
@@ -66,29 +57,11 @@
     </item>
     
     <item>
-      <title>Go</title>
-      <link>https://brenda-thng.netlify.com/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Goals</title>
       <link>https://brenda-thng.netlify.com/tags/goals/</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/tags/goals/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>https://brenda-thng.netlify.com/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/tags/golang/</guid>
       <description></description>
     </item>
     
@@ -104,7 +77,7 @@
     <item>
       <title>Google Spreadsheets</title>
       <link>https://brenda-thng.netlify.com/tags/google-spreadsheets/</link>
-      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/tags/google-spreadsheets/</guid>
       <description></description>
@@ -122,7 +95,7 @@
     <item>
       <title>Learning</title>
       <link>https://brenda-thng.netlify.com/tags/learning/</link>
-      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/tags/learning/</guid>
       <description></description>
@@ -167,9 +140,18 @@
     <item>
       <title>Python</title>
       <link>https://brenda-thng.netlify.com/tags/python/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reads</title>
+      <link>https://brenda-thng.netlify.com/tags/reads/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/tags/reads/</guid>
       <description></description>
     </item>
     
@@ -188,24 +170,6 @@
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/tags/sql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Template</title>
-      <link>https://brenda-thng.netlify.com/tags/template/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/tags/template/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Themes</title>
-      <link>https://brenda-thng.netlify.com/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/tags/themes/</guid>
       <description></description>
     </item>
     

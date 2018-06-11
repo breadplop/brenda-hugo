@@ -23,6 +23,7 @@ I made use of the Mixpanel API and company's database to retrieve and manipulate
 ### Lessons learnt
 1. How to use the Flask Framework to create a basic web application
 2. How to structure the code to make it readable and repeatable
+3. Security - When I first created the application on the static website, I didn't see security and having the API keys directly inputed into the script as a problem. As time passes and I wanted to use Git and Github to efficiently manage the different versions, I had to look it up and learn about the best practices. 
 
 I will be writing about the process as the time passes. 
 

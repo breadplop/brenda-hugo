@@ -9,6 +9,26 @@ categories: ["Learning", "NOC Internship", "Work"]
 
 # How I created an automated/self-updating marketing dashboard on Google Spreadsheets
 
+## Intro
+I recently wanted to pull data from Google Spreadsheets, do some manipulation using Python, and push the _cleaned_ data back onto Google Spreadsheets. And so I was researching on ways to connect **read** and **write** gspreadsheets with Python. 
+
+Upon Googling I realized that there are a few ways to do it, and yet many of them seems to be outdated. As of today, 8th May 2018, I have yet to figure it out. But I would be writing about the process to get this done.
+
+
+## Current Methods
+So currently, there are a few ways we can go about doing so...
+1. [Google Api](https://developers.google.com/sheets/api/quickstart/python) This doesn't seem to work too well, I encounter a `Key Error: '_module'` [error](https://www.reddit.com/r/Python/comments/7yvr4b/python_google_sheets_is_gspread_the_only_way_to_go/).
+2. [Gspread package](https://github.com/burnash/gspread) might be outdated
+3. [Gsheets package](https://pypi.org/project/gsheets/) have yet to try
+4. [pygsheets package](www.google.com)
+
+
+## Update
+
+I have tried the Gspread package from burnash and it worked great!! Easy to understand documentation as well. 
+
+---
+
 ## Background
 
 Perhaps I should first provide some background/context on this project that I worked on. For those that don't know, I am interning at a commercial real estate tech startup in NYC for a year as part of a school programme that my university provided. 
@@ -17,7 +37,7 @@ So when I first entered my internship company, I noticed that sales/marketing da
 
 1. **It isn't automated** - This meant that someone (the previous intern before me), had to manually update the dashboard weekly by pulling the formulas across, cross-referencing marketing spend numbers from various platforms and copying them back to this main dashboard that we had on Google Spreadsheets. 
 2. **It was clunky and slow** - The number of formulas used only increased as the weeks passed. There was a point in time when the spreadsheet was linking 5/6 different spreadsheets, and I swear I was so afraid to type in anything on the spreadsheet in fear of something breaking/crashing. Typing in a single cell would take minutes as I had to wait for formulas to load.
-3. **It was prone to errors** - This was a major problem. It was difficult to identify and fix errors as well when everything was running so slowly.
+3. **It was prone to errors** - This was a major problem. Data validation. It was difficult to identify and fix errors as well when everything was running so slowly.
 
 After a while, maintaining the dashboard became a chore and would take me more than an hour each time just to clean up and ensure that every formula was linked correctly. 
 
@@ -28,7 +48,7 @@ This was not sustainable with the number of paid users coming on board every wee
 # Creating the Automated Dashboard
 
 ## Requirements
-Let's work backwords. First we identify what we want to track, and then we find out how we can get the data to track these numbers. 
+Let's work backwords. First we have to identify what we want to track, and then we find out how we can get the data to track these numbers. 
 
 | Purpose        | Metrics           | Source of Data      |
 | ------------- | :----------- | -------- |
@@ -37,9 +57,9 @@ Let's work backwords. First we identify what we want to track, and then we find 
 
 From there we will be able to identify a list of things to do:
 
-- [ ] Retrieve raw data from Adwords, FB, LinkedIn, Bing, Google Analytics
-- [ ] Ensure that data is input in the right location on the spreadsheet
-- [ ] Set-up trigger to run the script weekly (auto-update)
+1. Retrieve raw data from Adwords, FB, LinkedIn, Bing, Google Analytics
+2. Ensure that data is input in the right location on the spreadsheet
+3. Set-up trigger to run the script weekly (auto-update)
 
 
 ## Retrieving raw data from the available APIs
@@ -81,7 +101,7 @@ function pull_last_week_fb_data() {
 ```
 
 ### Google Analytics
-Even though GoogleSpreadsheets has the GoogleAnalytics add-on, I found that the data pulled from there doesn't reflect what is shown on the GA web app. After days of googling, I gave up and decided to pull the data manually. I can't remember who this was referenced from exactly but this was the code I used to pull the GA data.
+Even though GoogleSpreadsheets has the GoogleAnalytics add-on, I found that the data pulled from there doesn't reflect what is shown on the GA (Google Analytics) web app. After days of googling, I gave up and decided to pull the data manually. I can't remember who this was referenced from exactly but this was the code I used to pull the GA data.
 
 ```JAVASCRIPT
 function myFunction() {
