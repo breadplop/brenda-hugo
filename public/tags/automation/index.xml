@@ -17,8 +17,8 @@
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/projects/self-updating-marketing-dashboard-google-spreadsheets/</guid>
-      <description>How I created an automated/self-updating marketing dashboard on Google Spreadsheets Background Perhaps I should first provide some background/context on this project that I worked on. For those that don&amp;rsquo;t know, I am interning at a commercial real estate tech startup in NYC for a year as part of a school programme that my university provided.
-So when I first entered my internship company, I noticed that sales/marketing data were all being tracked on Google Spreadsheets.</description>
+      <description>How I created an automated/self-updating marketing dashboard on Google Spreadsheets Intro I recently wanted to pull data from Google Spreadsheets, do some manipulation using Python, and push the cleaned data back onto Google Spreadsheets. And so I was researching on ways to connect read and write gspreadsheets with Python.
+Upon Googling I realized that there are a few ways to do it, and yet many of them seems to be outdated.</description>
     </item>
     
   </channel>

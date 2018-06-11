@@ -63,6 +63,16 @@
         
 
         
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120655635-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', 'UA-120655635-1');
+        </script>
+        
     </head>
 
     
@@ -169,6 +179,26 @@
 
 <h1 id="how-i-created-an-automated-self-updating-marketing-dashboard-on-google-spreadsheets">How I created an automated/self-updating marketing dashboard on Google Spreadsheets</h1>
 
+<h2 id="intro">Intro</h2>
+
+<p>I recently wanted to pull data from Google Spreadsheets, do some manipulation using Python, and push the <em>cleaned</em> data back onto Google Spreadsheets. And so I was researching on ways to connect <strong>read</strong> and <strong>write</strong> gspreadsheets with Python.</p>
+
+<p>Upon Googling I realized that there are a few ways to do it, and yet many of them seems to be outdated. As of today, 8th May 2018, I have yet to figure it out. But I would be writing about the process to get this done.</p>
+
+<h2 id="current-methods">Current Methods</h2>
+
+<p>So currently, there are a few ways we can go about doing so&hellip;
+1. <a href="https://developers.google.com/sheets/api/quickstart/python">Google Api</a> This doesn&rsquo;t seem to work too well, I encounter a <code>Key Error: '_module'</code> <a href="https://www.reddit.com/r/Python/comments/7yvr4b/python_google_sheets_is_gspread_the_only_way_to_go/">error</a>.
+2. <a href="https://github.com/burnash/gspread">Gspread package</a> might be outdated
+3. <a href="https://pypi.org/project/gsheets/">Gsheets package</a> have yet to try
+4. <a href="www.google.com">pygsheets package</a></p>
+
+<h2 id="update">Update</h2>
+
+<p>I have tried the Gspread package from burnash and it worked great!! Easy to understand documentation as well.</p>
+
+<hr />
+
 <h2 id="background">Background</h2>
 
 <p>Perhaps I should first provide some background/context on this project that I worked on. For those that don&rsquo;t know, I am interning at a commercial real estate tech startup in NYC for a year as part of a school programme that my university provided.</p>
@@ -178,7 +208,7 @@
 <ol>
 <li><strong>It isn&rsquo;t automated</strong> - This meant that someone (the previous intern before me), had to manually update the dashboard weekly by pulling the formulas across, cross-referencing marketing spend numbers from various platforms and copying them back to this main dashboard that we had on Google Spreadsheets.</li>
 <li><strong>It was clunky and slow</strong> - The number of formulas used only increased as the weeks passed. There was a point in time when the spreadsheet was linking <sup>5</sup>&frasl;<sub>6</sub> different spreadsheets, and I swear I was so afraid to type in anything on the spreadsheet in fear of something breaking/crashing. Typing in a single cell would take minutes as I had to wait for formulas to load.</li>
-<li><strong>It was prone to errors</strong> - This was a major problem. It was difficult to identify and fix errors as well when everything was running so slowly.</li>
+<li><strong>It was prone to errors</strong> - This was a major problem. Data validation. It was difficult to identify and fix errors as well when everything was running so slowly.</li>
 </ol>
 
 <p>After a while, maintaining the dashboard became a chore and would take me more than an hour each time just to clean up and ensure that every formula was linked correctly.</p>
@@ -191,7 +221,7 @@
 
 <h2 id="requirements">Requirements</h2>
 
-<p>Let&rsquo;s work backwords. First we identify what we want to track, and then we find out how we can get the data to track these numbers.</p>
+<p>Let&rsquo;s work backwords. First we have to identify what we want to track, and then we find out how we can get the data to track these numbers.</p>
 
 <table>
 <thead>
@@ -219,11 +249,11 @@
 
 <p>From there we will be able to identify a list of things to do:</p>
 
-<ul class="task-list">
-<li><label><input type="checkbox" disabled class="task-list-item"> Retrieve raw data from Adwords, FB, LinkedIn, Bing, Google Analytics</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> Ensure that data is input in the right location on the spreadsheet</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> Set-up trigger to run the script weekly (auto-update)</label></li>
-</ul>
+<ol>
+<li>Retrieve raw data from Adwords, FB, LinkedIn, Bing, Google Analytics</li>
+<li>Ensure that data is input in the right location on the spreadsheet</li>
+<li>Set-up trigger to run the script weekly (auto-update)</li>
+</ol>
 
 <h2 id="retrieving-raw-data-from-the-available-apis">Retrieving raw data from the available APIs</h2>
 
@@ -267,7 +297,7 @@
 
 <h3 id="google-analytics">Google Analytics</h3>
 
-<p>Even though GoogleSpreadsheets has the GoogleAnalytics add-on, I found that the data pulled from there doesn&rsquo;t reflect what is shown on the GA web app. After days of googling, I gave up and decided to pull the data manually. I can&rsquo;t remember who this was referenced from exactly but this was the code I used to pull the GA data.</p>
+<p>Even though GoogleSpreadsheets has the GoogleAnalytics add-on, I found that the data pulled from there doesn&rsquo;t reflect what is shown on the GA (Google Analytics) web app. After days of googling, I gave up and decided to pull the data manually. I can&rsquo;t remember who this was referenced from exactly but this was the code I used to pull the GA data.</p>
 
 <pre><code class="language-JAVASCRIPT">function myFunction() {
   getGAdata(&quot;gadata&quot;,&quot;gadataWEEK&quot;,&quot;ga:106932367&quot;,&quot;2018-01-01&quot;,&quot;yesterday&quot;,&quot;ga:isoWeek,ga:year&quot;,&quot;ga:users,ga:goal14Completions&quot;,&quot;ga:isoWeek&quot;)

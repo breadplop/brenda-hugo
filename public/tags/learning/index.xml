@@ -6,20 +6,10 @@
     <description>Recent content in Learning on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://brenda-thng.netlify.com/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>How to Use Python With Google Spreadsheets</title>
-      <link>https://brenda-thng.netlify.com/posts/how-to-use-python-with-google-spreadsheets/</link>
-      <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/posts/how-to-use-python-with-google-spreadsheets/</guid>
-      <description>How to Use Python with Google Spreadsheets Intro I recently wanted to pull data from Google Spreadsheets, do some manipulation using Python, and push the cleaned data back onto Google Spreadsheets. And so I was resaerching on ways to connect read and write gspreadsheets with Python.
-Upon Googling I realized that there are a few ways to do it, and yet many of them seems to be outdated. As of today, 8th May 2018, I have yet to figure it out.</description>
-    </item>
     
     <item>
       <title>Marketing Dashboard on Google Spreadsheets</title>
@@ -27,8 +17,8 @@ Upon Googling I realized that there are a few ways to do it, and yet many of the
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/projects/self-updating-marketing-dashboard-google-spreadsheets/</guid>
-      <description>How I created an automated/self-updating marketing dashboard on Google Spreadsheets Background Perhaps I should first provide some background/context on this project that I worked on. For those that don&amp;rsquo;t know, I am interning at a commercial real estate tech startup in NYC for a year as part of a school programme that my university provided.
-So when I first entered my internship company, I noticed that sales/marketing data were all being tracked on Google Spreadsheets.</description>
+      <description>How I created an automated/self-updating marketing dashboard on Google Spreadsheets Intro I recently wanted to pull data from Google Spreadsheets, do some manipulation using Python, and push the cleaned data back onto Google Spreadsheets. And so I was researching on ways to connect read and write gspreadsheets with Python.
+Upon Googling I realized that there are a few ways to do it, and yet many of them seems to be outdated.</description>
     </item>
     
   </channel>
