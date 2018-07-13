@@ -23,9 +23,13 @@ All of these seems simple. I have probably learnt about it before in class. But 
 
 I have spent about 2-3 weeks putting together a dashboard that Sam thought was really useful, only to realise that the data in there isn't entirely accurate. We will now need to spend some time to clean up and ensure that the data in there is good, which is honestly a very tedious task - but it has to be done. 
 
+> It is always a work in progress.
+
 ### Links
 
 ![Tracking UTM tags and storing it in a database][1]
+![How to Create a Self-Updating Marketing Dashboard on Google Spreadsheets][2]
 
 
-[1]: (https://jennamolby.com/how-to-use-cookies-to-capture-url-parameters/)
+[1]: (https://jennamolby.com/how-to-use-cookies-to-capture-url-parameters/) 
+[2]: (https://goo.gl/J2hmB5)

@@ -6,10 +6,20 @@
     <description>Recent content on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://brenda-thng.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Marketing Analytics</title>
+      <link>https://brenda-thng.netlify.com/posts/marketing-analytics/</link>
+      <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/posts/marketing-analytics/</guid>
+      <description>Hi guys, so today I&amp;rsquo;d like to talk about marketing analytics. Being at Reonomy for a year, I have learnt a lot about marketing and how data is so important and crucial in marketing. I&amp;rsquo;d like to credit my mentor, Sam, for being such a patient and knowledgable mentor who have really taught me a lot and helped piqued my interest in marketing analytics.
+And the purpose of this post is for me to consolidate, or attempt to consolidate my learnings of what marketing analytics means to me, for now at least.</description>
+    </item>
     
     <item>
       <title>Test Blog</title>
@@ -37,7 +47,8 @@ Upon Googling I realized that there are a few ways to do it, and yet many of the
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brenda-thng.netlify.com/posts/things-to-write-about/</guid>
-      <description>Personal NOC Reflections (goals achieved, things to improve on) Goals when I get back  Learning Can I be a data scientist? How I created a product analytics dashboard on flask (Tags: Flask, Python, Numpy, Pandas, Plotly)  Good reads Entrepreurship  | Title | Notes | |&amp;mdash;|&amp;mdash;| |w|w|   Living in a Data-Driven World  - data science isn&amp;rsquo;t as sexy/magical as the world is makes it sound.</description>
+      <description>Personal NOC Reflections (goals achieved, things to improve on) Goals when I get back  Learning Can I be a data scientist? How I created a product analytics dashboard on flask (Tags: Flask, Python, Numpy, Pandas, Plotly)  Good reads Learning Data Science  Entrepreurship | Title | Notes | |&amp;mdash;|&amp;mdash;| |w|w|
+   Living in a Data-Driven World  - data science isn&amp;rsquo;t as sexy/magical as the world is makes it sound.</description>
     </item>
     
     <item>
