@@ -2,6 +2,7 @@
 title: "Marketing Analytics"
 date: 2018-06-07
 draft: false
+tags: marketing analytics, google app script, google data studios
 ---
 
 Hi guys, so today I'd like to talk about marketing analytics. Being at Reonomy for a year, I have learnt a lot about marketing and how data is so important and crucial in marketing. I'd like to credit my mentor, Sam, for being such a patient and knowledgable mentor who have really taught me a lot and helped piqued my interest in marketing analytics. 
