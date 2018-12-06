@@ -6,7 +6,9 @@ disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = "UA-120655635-1"
 
 [params]
-	accent = "purple"
+    author = "brenda"
+    description = "Data Analytics . Dog Lover . Foodie"
+	accent = "green"
 	showBorder = true
 	font = "Assistant"
     highlight = true
@@ -36,6 +38,11 @@ googleAnalytics = "UA-120655635-1"
     url = "/resume/"
     name = "Resume"
     weight = 4
+
+[[menu.main]]
+    url = "/musings/"
+    name = "Musings"
+    weight = 5
 
 [[menu.icon]]
     url = "mailto:brenda.thng@u.nus.edu.com"

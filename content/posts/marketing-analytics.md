@@ -2,6 +2,7 @@
 title: "Marketing Analytics"
 date: 2018-06-07
 draft: false
+tags: ["Marketing Analytics", ]
 ---
 
 Hi guys, so today I'd like to talk about marketing analytics. Being at Reonomy for a year, I have learnt a lot about marketing and how data is so important and crucial in marketing. I'd like to credit my mentor, Sam, for being such a patient and knowledgable mentor who have really taught me a lot and helped piqued my interest in marketing analytics. 
@@ -27,8 +28,8 @@ I have spent about 2-3 weeks putting together a dashboard that Sam thought was r
 
 ### Links
 
-![Tracking UTM tags and storing it in a database][1]
-![How to Create a Self-Updating Marketing Dashboard on Google Spreadsheets][2]
+- [Tracking UTM tags and storing it in a database][1]
+- [How to Create a Self-Updating Marketing Dashboard on Google Spreadsheets][2]
 
 
 [1]: (https://jennamolby.com/how-to-use-cookies-to-capture-url-parameters/) 
