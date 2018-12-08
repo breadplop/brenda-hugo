@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Musings on Brenda Thng</title>
+    <link>https://brenda-thng.netlify.com/musings/</link>
+    <description>Recent content in Musings on Brenda Thng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://brenda-thng.netlify.com/musings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello</title>
+      <link>https://brenda-thng.netlify.com/musings/year-4-sem-1-out/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/musings/year-4-sem-1-out/</guid>
+      <description>I just finished year 4 semester 1 today. Completed 2 papers today and I finally feel relieved. There is so much I want to do this holiday, but really very little time. I am going to list down some of the things that I want to do, or things that I will have to do, this holiday. Just so that I can better plan and delegate my time.
+ I found myself a software development part-time job that I am quite excited about!</description>
+    </item>
+    
+  </channel>
+</rss>

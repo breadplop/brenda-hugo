@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://brenda-thng.netlify.com/projects/create-my-first-telegram-bot-python/</loc>
+    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/musings/year-4-sem-1-out/</loc>
+    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/posts/i-want-to-start-investing/</loc>
+    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://brenda-thng.netlify.com/posts/marketing-analytics/</loc>
     <lastmod>2018-06-07T00:00:00+00:00</lastmod>
   </url>
@@ -62,7 +77,7 @@
   
   <url>
     <loc>https://brenda-thng.netlify.com/</loc>
-    <lastmod>2018-06-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -85,7 +100,7 @@
   
   <url>
     <loc>https://brenda-thng.netlify.com/tags/goals/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -108,6 +123,12 @@
   </url>
   
   <url>
+    <loc>https://brenda-thng.netlify.com/tags/investing/</loc>
+    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://brenda-thng.netlify.com/tags/learning/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -122,6 +143,18 @@
   <url>
     <loc>https://brenda-thng.netlify.com/tags/marketing/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/marketing-analytics/</loc>
+    <lastmod>2018-06-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/musings/</loc>
+    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -145,7 +178,7 @@
   
   <url>
     <loc>https://brenda-thng.netlify.com/posts/</loc>
-    <lastmod>2018-06-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -163,13 +196,13 @@
   
   <url>
     <loc>https://brenda-thng.netlify.com/projects/</loc>
-    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://brenda-thng.netlify.com/tags/python/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -192,6 +225,12 @@
   </url>
   
   <url>
+    <loc>https://brenda-thng.netlify.com/tags/short-tutorials-that-work/</loc>
+    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://brenda-thng.netlify.com/tags/sql/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -200,6 +239,12 @@
   <url>
     <loc>https://brenda-thng.netlify.com/tags/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brenda-thng.netlify.com/tags/telegram-bot/</loc>
+    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,7 +1,8 @@
 ---
 title: "I Want to Start Investing"
 date: 2018-12-05
-draft: true
+tags: ["investing"]
+draft: false
 ---
 I have always wanted to learn how to invest. I want to be self-sufficient. I want to stop taking my parent's money. I want to be able to provide for myself and for the people I love. I want to grow money from money. And I know all of these aren't going to come even if I manage to find a well paying job. I needed to do something more than find a good job. Especially in this day and age, I needed to find additional sources of income. 
 
@@ -13,9 +14,9 @@ When I got to the workshop, I could see that the other attendees were a lot youn
 In this post, I will briefly talk about what I have learnt - just for me to ensure that I have learned, and also hopefully give anyone who is reading this post and like me, want to get involved in investing, some idea of how they can start this journey. We can learn together.
 
 ### What the workshop was about
-This workshop didn't teach you to invest or anything. It taught us about the history, basics and fundamentals of investing. 
+This workshop didn't specifically taught me how to invest. It taught us about the history, basics and fundamentals of investing, which I found interesting.
 
-The first part was about the economy. 
+The first part was about how the economy works. 
 
 - How money came about
 - Why we need money
@@ -23,10 +24,11 @@ The first part was about the economy.
 
 We then moved on to bigger topics:
 
-- Different stock exchanges
+- Different product markets (e.g. stock exchange, forex, merchantile)
 
 Last part of the workshop, we learnt how to:
+- trading psychology
+- how to read candle graphs
+- basic strategies used by investors
 
-- read candle graphs
-
-All in all, it was an enrichng workshop about the history of investments. I will be going down for another thsi saturday so teach me more basics on investing and I am excited to see what new knowledge I'd be able to pick up.
+All in all, it was an enrichng workshop about the how the whole notion of investing came about. I will be going down for another this saturday so teach me more basics on investing and I am excited to see what new knowledge I'd be able to pick up.

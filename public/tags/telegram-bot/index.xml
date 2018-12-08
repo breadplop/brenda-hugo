@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Brenda Thng</title>
-    <link>https://brenda-thng.netlify.com/tags/python/</link>
-    <description>Recent content in Python on Brenda Thng</description>
+    <title>Telegram Bot on Brenda Thng</title>
+    <link>https://brenda-thng.netlify.com/tags/telegram-bot/</link>
+    <description>Recent content in Telegram Bot on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://brenda-thng.netlify.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://brenda-thng.netlify.com/tags/telegram-bot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,17 +21,6 @@
  What this post is about So today I am going to write about how I (1) created my first Telegram bot on python, and (2) manage to host it 24&amp;frasl;7 for free.
 The reason I am writing this is because I had encountered some issues while looking for a beginner tutorial teaching me how to write telegram bots.
 And after writing the bot, I wanted my bot to be live without having me to pay for anything.</description>
-    </item>
-    
-    <item>
-      <title>Product Analytics Dashboard</title>
-      <link>https://brenda-thng.netlify.com/projects/first-project-brenda/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brenda-thng.netlify.com/projects/first-project-brenda/</guid>
-      <description>Task As part of the product team, I was tasked to create analyze and construct product metrics so that we take a more systematic and data-driven approach when it comes to designing the product and strategizing company goals.
-Using a Flask framework, I created a simple dashboard to evaluate and analyse the product performance overtime.
-I made use of the Mixpanel API and company&amp;rsquo;s database to retrieve and manipulate the data in order to create these charts.</description>
     </item>
     
   </channel>

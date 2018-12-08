@@ -6,10 +6,41 @@
     <description>Recent content on Brenda Thng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://brenda-thng.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Create My First 24/7 Telegram Bot On Python</title>
+      <link>https://brenda-thng.netlify.com/projects/create-my-first-telegram-bot-python/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/projects/create-my-first-telegram-bot-python/</guid>
+      <description>Hello!
+ What this post is about So today I am going to write about how I (1) created my first Telegram bot on python, and (2) manage to host it 24&amp;frasl;7 for free.
+The reason I am writing this is because I had encountered some issues while looking for a beginner tutorial teaching me how to write telegram bots.
+And after writing the bot, I wanted my bot to be live without having me to pay for anything.</description>
+    </item>
+    
+    <item>
+      <title>Hello</title>
+      <link>https://brenda-thng.netlify.com/musings/year-4-sem-1-out/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/musings/year-4-sem-1-out/</guid>
+      <description>I just finished year 4 semester 1 today. Completed 2 papers today and I finally feel relieved. There is so much I want to do this holiday, but really very little time. I am going to list down some of the things that I want to do, or things that I will have to do, this holiday. Just so that I can better plan and delegate my time.
+ I found myself a software development part-time job that I am quite excited about!</description>
+    </item>
+    
+    <item>
+      <title>I Want to Start Investing</title>
+      <link>https://brenda-thng.netlify.com/posts/i-want-to-start-investing/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brenda-thng.netlify.com/posts/i-want-to-start-investing/</guid>
+      <description>I have always wanted to learn how to invest. I want to be self-sufficient. I want to stop taking my parent&amp;rsquo;s money. I want to be able to provide for myself and for the people I love. I want to grow money from money. And I know all of these aren&amp;rsquo;t going to come even if I manage to find a well paying job. I needed to do something more than find a good job.</description>
+    </item>
     
     <item>
       <title>Marketing Analytics</title>
@@ -57,7 +88,7 @@ Upon Googling I realized that there are a few ways to do it, and yet many of the
       
       <guid>https://brenda-thng.netlify.com/resume/brenda-resume/</guid>
       <description>View the GoogleDoc version here
- (Last updated: May 2018)</description>
+ (Last updated: September 2018)</description>
     </item>
     
     <item>
