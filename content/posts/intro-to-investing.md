@@ -21,5 +21,8 @@ Today I went for the second workshop and here are a consolidation of the materia
 ## Books to read
 - [Secrets of Winning Forex Strategies by Nicholas Tan](https://www.amazon.com/Secrets-Winning-Forex-Strategies-Profitable-ebook/dp/B00EFESYXM/ref=sr_1_1?s=books&ie=UTF8&qid=1544265941&sr=1-1&keywords=nicholas+tan)
 
+## Terms
+Going short/going long --> making money when prices go down/up
+
 ### Things to study:
-There are some things he mentioned that I didn't quite understand, like going long/going short.
+There are some things he mentioned that I didn't quite understand, like going long/going short, spread.
