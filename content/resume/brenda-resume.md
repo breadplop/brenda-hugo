@@ -5,8 +5,8 @@ draft: false
 tags: ["Resume"]
 categories: []
 ---
-[View the GoogleDoc version here](https://docs.google.com/document/d/1GbUTFIruG7kuMYBlW6NFpx3bmK_rJMIlq8Sqk35B70g/edit?usp=sharing)
+[View the GoogleDoc version here](https://docs.google.com/document/d/1wJ_NZdli6tDQvd-fZCwmCf6oDhwORYkZU_C9uY_vEYU/edit?usp=sharing)
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vTL1TQM4h55rSVlet9_-NP95bnUcdfMsjkoC6F9Gqdf3KBsjIyD9JjOSy2yqTD6sME03xz8hGO37hrl/pub?embedded=true" width="1000px" height="1000px"></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vS27e-4sh2sxgjD-hA6uXBxIDbfrQSSQW_5-LUunsEdd2XzlN0kMC64l9c6mT05YlFPPgndRkJiKPQv/pub?embedded=true" width="1000px" height="1000px"></iframe>
 
-*(Last updated: September 2018)*
+*(Last updated: Oct 2020)*
